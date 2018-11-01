@@ -1348,9 +1348,17 @@ input, button, select, optgroup, textarea {
   .spirit-text .border-box .top-h2 {
     font-size: 30px;
   }
+
+  span.header__section-top_title {
+    display: none;
+  }
 }
 
 @media (max-width: 988px) {
+  .header__section-top_list {
+    font-size: 10px;
+  }
+
   .prod-block .popup-gallery {
     width: 30%;
   }
@@ -1627,6 +1635,10 @@ input, button, select, optgroup, textarea {
   }
   .contact-text {
     padding-left: 0;
+  }
+
+  .header__section-top {
+    display: none;
   }
 }
 
