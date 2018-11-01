@@ -54,6 +54,23 @@ $(document).on('ready', function() {
   	$('.over').fadeOut();
   });
 
+	/*
+	* Shedule day
+	*/
+		var dateNow = new Date(),
+				weekDayNow = dateNow.getDay();
+		if( weekDayNow > 0 && weekDayNow < 3 ) {
+			$('.js-today').html('Today: <span>Closed</span>');
+		} else if( weekDayNow > 2 && weekDayNow < 6 ) {
+			$('.js-today span').html('4pm - 10pm');
+		} else {
+			$('.js-today span').html('noon - 10pm');
+		}
+
+		$( '[class*="day-hours-"]' ).removeClass('active');
+		$( '.day-hours-' + weekDayNow ).addClass('active');
+
+
 	// Contact form
 	$('#bookEvent').on('click', function() {
 		$(this).attr('disabled', true);

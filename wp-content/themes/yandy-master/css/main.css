@@ -72,6 +72,91 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello?#iefix") format("embedded-opentype"), url("../font/fontello.woff") format("woff"), url("../font/fontello.ttf") format("truetype"), url("../font/fontello.svg#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+@font-face {
+    font-family: 'fontello';
+    src: url("../font/fontello.svg?74658431#fontello") format("svg");
+}
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-right-open:before {
+  content: '\f006';
+}
+
+/* '' */
+
+.icon-left-open:before {
+  content: '\f007';
+}
+
+/* '' */
+
+.icon-twitter:before {
+  content: '\f099';
+}
+
+/* '' */
+
+.icon-angle-down:before {
+  content: '\f107';
+}
+
+/* '' */
+
+.icon-facebook:before {
+  content: '\f30c';
+}
+
+/* '' */
+
+.icon-instagram-filled:before {
+  content: '\f31f';
+}
+
+/* '' */
+
+/*------fonts---*/
+
 html {
   font-size: 100%;
 }
@@ -122,6 +207,189 @@ input, button, select, optgroup, textarea {
   .container {
     max-width: 1300px;
   }
+}
+
+.header-link {
+    color: #000;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.header-link span {
+  display: inline-block;
+  height: 12px;
+}
+
+.header__section-top_title {
+  padding-right: 5px;
+  text-transform: capitalize;
+}
+
+.header-link:hover {
+    color: #000
+}
+
+.header__section-top {
+    background-color: #f3f3f3;
+}
+
+.header__section-top_list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+    align-items: center;
+    height: 35px;
+}
+
+.header__section-top_select {
+    width: 18px;
+    height: 14px;
+    background: transparent;
+    text-align: center;
+    line-height: 14px;
+    display: inline-block;
+    margin-top: -2px;
+    margin-left: 2px;
+    color: #000;
+}
+
+.header__section-top_item {
+    text-align: center;
+    display: flex;
+}
+
+.header__section-top_date {
+    position: relative;
+    top: 2px;
+}
+
+.header__section-top_hours {
+    position: absolute;
+    width: 190px;
+    padding: 15px;
+    border: 1px solid transparent;
+    text-align: left;
+    top: 150%;
+    right: 0;
+    background: #fff;
+    z-index: 10;
+    transform: scale(0);
+    font-size: 10px;
+}
+
+.header__section-top_select:hover+.header__section-top_hours {
+    transform: scale(1);
+    border-color: #aaa;
+    transform-origin: right top;
+    transition: transform .3s,border-color .3s .2s;
+    -webkit-transition-timing-function: cubic-bezier(0.175,.885,.32,1.275)
+}
+
+.header__section-top_hours div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 11px;
+    margin-bottom: 7px;
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all .3s .3s
+}
+
+.header__section-top_select:hover+.header__section-top_hours div {
+    transform: translateY(0);
+    opacity: 1
+}
+
+.header__section-top_hours div:last-child {
+    margin-bottom: 0
+}
+
+.header__section-top_hours div span {
+    width: 50%
+}
+
+.header__section-top_hours div span:not(:last-child) {
+    width: 35%;
+    text-align: right
+}
+
+.header__section-top_hours div span:not(:last-child):after {
+    content: ':'
+}
+
+.header__section-top_hours div:hover {
+    color: #3f9baf
+}
+
+[class*="day-hours-"] {
+    color: #2c2c2c
+}
+
+[class*="day-hours-"].active {
+    color: #017f99;
+    font-weight: bold
+}
+
+.header__section-top_select .icon-angle-down {
+    position: relative
+}
+
+.header {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
+
+.is-fixed .header {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1)
+}
+
+.is-fixed .header__menu_logo {
+    max-width: 35px
+}
+
+.header__menu ul {
+    -webkit-transition: margin .2s;
+    transition: margin .2s
+}
+
+.is-fixed .header__menu ul {
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+.header__menu {
+    -webkit-transition: margin .2s;
+    transition: margin .2s
+}
+
+.is-fixed .header__menu {
+    margin: 5px auto 0
+}
+
+.is-fixed .header__section-top_list {
+    padding: 7px 0 2px
 }
 
 .top-header-btn i {
@@ -235,7 +503,16 @@ input, button, select, optgroup, textarea {
 }
 
 .header {
-  height: 95px;
+  height: 120px;
+  position: relative;
+  z-index: 990;
+}
+
+.header__section-top_socials a {
+  color: #555;
+  font-size: 14px;
+  display: inline-block;
+  margin: 6px 3px 0 3px;
 }
 
 @media screen and (max-width: 767px) {
