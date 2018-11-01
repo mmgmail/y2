@@ -34,7 +34,7 @@
 			CSS
 			============================================= -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet">
  <?php wp_head(); ?>
 </head>
 
@@ -103,11 +103,40 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="logo-img">
-					<?php the_custom_logo(); ?>
-				</div>
-				<div class="top-header-btn">
-					<i></i>
+				<div class="header-bottom">
+
+					<div class="logo-img">
+						<?php the_custom_logo(); ?>
+					</div>
+
+					<div class="header-bottom__left">
+
+						<?php
+
+						wp_nav_menu( array(
+							'theme_location'  => 'menu-2',
+							'menu'            => 'menu-2',
+							'container'       => 'ul',
+							'container_class' => '',
+							'container_id'    => '',
+							'menu_class'      => 'my-menu-2',
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+							'depth'           => 0,
+							'walker'          => '',
+						) ); ?>
+
+						<div class="top-header-btn">
+							<i></i>
+						</div>
+					</div>
+
 				</div>
 			</div>
 	</section>

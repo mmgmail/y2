@@ -45,6 +45,7 @@ if ( ! function_exists( 'yandy_master_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'yandy-master' ),
+			'menu-2' => esc_html__( 'Secondary', 'yandy-master' ),
 		) );
 
 		/*
