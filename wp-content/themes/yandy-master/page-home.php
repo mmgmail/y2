@@ -10,13 +10,13 @@ get_header();
 <?php
 
 	$menu = get_field('menu');
-	
+
 ?>
 
 <section class="top-slider">
 		<div class="container">
 
-			<div class="row">
+			<div class="">
 
 				<div class="col-12">
 
@@ -61,15 +61,28 @@ wp_reset_query();
 		<div class="container">
 			<div class="flex-box">
 				<div class="hand-p1">
-					<div class="top-h1"><span>Hand Crafted Cocktails</span></div>
-					<div class="top-p">Our cocktail menu at You & Yours<br> Distilling Co. was brought to life with a desire to feature original creations while also paying homage to some timeless classics and always highlighting the spirits that we produce in house</div>
+					<div class="top-h1-2">OUR MENU<span>Hand Crafted Cocktails</span></div>
+					<div class="top-p">Our cocktail menu at You & Yours Distilling Co. was brought to life with a desire to feature original creations while also paying homage to some timeless classics and always highlighting the spirits that we produce in house.</div>
 					<a class="top-btn js-menu-popup" href="<?php echo $menu['url']; ?>"><u>See Full Menu</u></a>
+				</div>
+
+				<div class="coctails-images">
+					<img src="<?php echo get_template_directory_uri();?>/img/cocktails-0080.jpg"
+					     srcset="<?php echo get_template_directory_uri();?>/img/cocktails-0080@2x.jpg 2x,
+					             <?php echo get_template_directory_uri();?>/img/cocktails-0080@3x.jpg 3x">
+					<img src="<?php echo get_template_directory_uri();?>/img/cocktails-0028.jpg"
+					     srcset="<?php echo get_template_directory_uri();?>/img/cocktails-0028@2x.jpg 2x,
+					             <?php echo get_template_directory_uri();?>/img/cocktails-0028@3x.jpg 3x">
+
+					<img src="<?php echo get_template_directory_uri();?>/img/mgl-6275.jpg"
+				       srcset="<?php echo get_template_directory_uri();?>/img/mgl-6275@2x.jpg 2x,
+				               <?php echo get_template_directory_uri();?>/img/mgl-6275@3x.jpg 3x">
 				</div>
 
 
 
 
-		<?php
+		<!-- <?php
 if ( have_posts() ) : // если имеются записи в блоге.
    query_posts( array('cat' => '3',  'posts_per_page' => '3',  ));    // указываем ID рубрик, которые необходимо вывести.
   while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
@@ -87,32 +100,16 @@ if ( have_posts() ) : // если имеются записи в блоге.
 endif;
 /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
 wp_reset_query();
-?>
+?> -->
 
 			</div>
 		</div>
 	</section>
 
-	<section class="slider-2">
-		<div class="top-h1 text-center"><span>San Diego’s First Urban Distillery.</span></div>
-		<div class="top-p text-center">Premium, distilled-on-site spirits and a world-class<br> cocktail program to match</div>
-		<div class="container-fluid">
+	<section>
 
-			<div class="center slider popup-gallery">
-
-				<a href="<?php echo get_template_directory_uri();?>/img/slider2.1.png"><img src="<?php echo get_template_directory_uri();?>/img/slider2.1.png"></a>
-
-
-				<a href="<?php echo get_template_directory_uri();?>/img/slider2.2.png"><img src="<?php echo get_template_directory_uri();?>/img/slider2.2.png"></a>
-
-
-				<a href="<?php echo get_template_directory_uri();?>/img/slider2.3.png"><img src="<?php echo get_template_directory_uri();?>/img/slider2.3.png"></a>
-
-
-				<a href="<?php echo get_template_directory_uri();?>/img/slider2.3.png"><img src="<?php echo get_template_directory_uri();?>/img/slider2.3.png"></a>
-			</div>
-		</div>
 	</section>
+
 	<section class="room">
 		<div class="container">
 			<div class="row">
@@ -126,7 +123,7 @@ wp_reset_query();
 					</a>
 				</div>
 				<div class="col-12 col-lg-6 room-text">
-					<div class="top-h1"><span>Tasting Room & Event Space</span></div>
+					<div class="top-h1-2"><span>Tasting Room & Event Space</span></div>
 					<div class="top-p">Our light and airy space provides the perfect relaxed-yet-sophisticated setting to enjoy an elevated imbibing experience. Stop by for a coctail, enjoy a tasting filght or book an event with us. We can accommodate groups of up to 85.</div>
 					<a href="blog2.html" class="top-btn"><u>Read More</u></a>
 				</div>
@@ -138,7 +135,7 @@ wp_reset_query();
 			<div class="row">
 				<div class="col-12 col-xl-6 bringing-text ">
 					<div class="marker">“</div>
-					<div class="top-h1"><span>It’s about bringing people together.</span></div>
+					<div class="top-h1-2"><span>It’s about bringing people together.</span></div>
 					<div class="top-p">Launched in March of 2017 after almost three years of planning, You & Yours Distilling Co. is a full production distillety, tasting room and event space, comlete with a world-class coctail program highlighting our current spirits offerings.</div>
 					<div class="top-p">Salvaged wood, whitewashed brick, exposed concrete, push velvet, denim linen, copper and marble accents come together to create a fresh, unique and insta-worthy atmosphare.</div>
 					<a href="<?php the_field('book-event'); ?>" class="top-btn" target="_blank"><u>Book Event</u></a>
@@ -153,7 +150,7 @@ wp_reset_query();
 		</div>
 	</section>
 	<section class="products">
-		<div class="top-h1 text-center"><span>Our Flagship Products</span></div>
+		<div class="top-h1-2 text-center"><span>Our Flagship Products</span></div>
 		<div class="top-p text-center">Premium, distilled-on-site spirits and a world-class<br> cocktail program to match</div>
 		<div class="container">
 			<div class="flex-box prod-block">

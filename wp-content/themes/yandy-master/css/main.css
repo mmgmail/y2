@@ -205,7 +205,7 @@ input, button, select, optgroup, textarea {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1300px;
+    max-width: 1460px;
   }
 }
 
@@ -665,31 +665,31 @@ input, button, select, optgroup, textarea {
 
 .top-h1 {
   font-family: 'Crimson Text', serif;
-  font-size: 85px;
+  font-size: 55px;
   font-weight: bold;
-  line-height: 75px;
+  line-height: 1.3;
 }
 
-.top-p {
-  font-size: 20px;
+.top-p p {
+  font-size: 22px;
   line-height: 1.4;
-  margin-top: 25px;
+  margin-top: 15px;
   color: rgb(0, 0, 0);
 }
 
 .top-btn {
-  font-size: 18px;
+  font-size: 22px;
   display: inline-block;
   margin-top: 25px;
   color: #000;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1;
 }
 
 .top-btn u {
   text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #bfefe5;
   line-height: 1;
 }
 
@@ -707,7 +707,11 @@ input, button, select, optgroup, textarea {
   z-index: 20;
   top: 100px;
   right: 0px;
-  width: 40%;
+  width: 31%;
+  padding: 35px;
+  background: #fff;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .top-slider {
@@ -738,7 +742,7 @@ input, button, select, optgroup, textarea {
     left: 445px;
   }
   .top-h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .slick-dots {
     right: auto !important;
@@ -759,19 +763,57 @@ input, button, select, optgroup, textarea {
   justify-content: space-between;
 }
 
+.coctails-images {
+  display: flex;
+  width: 54%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.coctails-images img {
+  max-width: 100%;
+  height: auto;
+}
+
 .hand-p1 {
   position: relative;
   z-index: 30;
   left: 55px;
   margin-top: 90px;
+  width: 44%;
 }
 
 .hand-p1 .top-p {
-  width: 417px;
+  width: 90%;
 }
 
 .hand-p1 .top-h1 {
-  width: 495px;
+  width: 100%;
+}
+
+.top-h1-2 {
+  font-size: 21px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 8.3px;
+  color: #a2a2a2;
+}
+
+.top-h1-2 span {
+  font-family: Crimson;
+  font-size: 95px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  display: block;
 }
 
 .hand-p4, .hand-p3, .hand-p2 {
@@ -967,7 +1009,7 @@ input, button, select, optgroup, textarea {
 }
 
 .d-block {
-  max-width: 62%;
+  max-width: 80%;
   width: 100%;
 }
 
