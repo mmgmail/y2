@@ -729,6 +729,25 @@ input, button, select, optgroup, textarea {
   padding-top: 40px;
 }
 
+.tony-text, .tony-text p {
+  font-family: 'Crimson Text', serif;
+  font-size: 37px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #575757;
+  margin-top: 60px;
+}
+
+.tony-text b {
+  font-weight: 600;
+  margin-top: 30px;
+  display: block;
+}
+
 @media (max-width: 1200px) {
   .header-bottom__left {
     width: 80%;
@@ -814,7 +833,7 @@ input, button, select, optgroup, textarea {
 }
 
 .top-h1-2 span {
-  font-family: Crimson;
+  font-family: 'Crimson Text', serif;;
   font-size: 95px;
   font-weight: normal;
   font-style: normal;

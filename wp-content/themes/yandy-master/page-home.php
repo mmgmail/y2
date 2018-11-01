@@ -34,7 +34,7 @@ if ( have_posts() ) : // если имеются записи в блоге.
 								<?php the_post_thumbnail(); ?>
 							</div>
 								<div class="top-text">
-								<div class="top-h1"><?php the_title(); ?></div>
+								<h1 class="top-h1"><?php the_title(); ?></h1>
 									<div class="top-p"><?php the_excerpt(); ?></div>
 								<a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
 							</div>
@@ -61,7 +61,7 @@ wp_reset_query();
 		<div class="container">
 			<div class="flex-box">
 				<div class="hand-p1">
-					<div class="top-h1-2">OUR MENU<span>Hand Crafted Cocktails</span></div>
+					<h2 class="top-h1-2">OUR MENU<span>Hand Crafted Cocktails</span></h2>
 					<div class="top-p">Our cocktail menu at You & Yours Distilling Co. was brought to life with a desire to feature original creations while also paying homage to some timeless classics and always highlighting the spirits that we produce in house.</div>
 					<a class="top-btn js-menu-popup" href="<?php echo $menu['url']; ?>"><u>See Full Menu</u></a>
 				</div>
@@ -109,7 +109,7 @@ wp_reset_query();
 	<section class="our-products">
 		<div class="container">
 			<div class="hand-p-products">
-				<div class="top-h1-2">CRAFT DISTILLED<span class="text-center">Our Products</span></div>
+				<h2 class="top-h1-2">CRAFT DISTILLED<span class="text-center">Our Products</span></h2>
 				<div class="top-p">Distilling high quality craft spirits is our passion, and we believe you can see this in every product we release. Learn about our spirits below.</div>
 				<a class="top-btn js-menu-popup" href="#"><u>Learn More</u></a>
 			</div>
@@ -130,9 +130,13 @@ wp_reset_query();
 					     data-object-fit="true" class="img-fluid room-img" alt="room">
 				</div>
 				<div class="col-12 col-lg-6 room-text">
-					<div class="top-h1-2">OUR SPACE<span>Tasting Room & Event Space</span></div>
+					<h2 class="top-h1-2">OUR SPACE<span>Tasting Room & Event Space</span></h2>
 					<div class="top-p">Our light and airy space provides the perfect relaxed-yet-sophisticated setting to enjoy an elevated imbibing experience. Stop by for a coctail, enjoy a tasting filght or book an event with us. We can accommodate groups of up to 85.</div>
-					<a href="blog2.html" class="top-btn"><u>Read More</u></a>
+					<a href="blog2.html" class="top-btn"><u>Learn More</u></a>
+					<div class="tony-text">
+						<p>“I had an amazing time at Y&Y.  The staff were amazing, and they catered to our group with grace, style, and booooze”</p>
+						<b>-Toni T</b>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -142,7 +146,7 @@ wp_reset_query();
 			<div class="row">
 				<div class="col-12 col-xl-6 bringing-text ">
 					<div class="marker">“</div>
-					<div class="top-h1-2"><span>It’s about bringing people together.</span></div>
+					<h2 class="top-h1-2"><span>It’s about bringing people together.</span></h2>
 					<div class="top-p">Launched in March of 2017 after almost three years of planning, You & Yours Distilling Co. is a full production distillety, tasting room and event space, comlete with a world-class coctail program highlighting our current spirits offerings.</div>
 					<div class="top-p">Salvaged wood, whitewashed brick, exposed concrete, push velvet, denim linen, copper and marble accents come together to create a fresh, unique and insta-worthy atmosphare.</div>
 					<a href="<?php the_field('book-event'); ?>" class="top-btn" target="_blank"><u>Book Event</u></a>
@@ -157,7 +161,7 @@ wp_reset_query();
 		</div>
 	</section>
 	<section class="products">
-		<div class="top-h1-2 text-center"><span>Our Flagship Products</span></div>
+		<h2 class="top-h1-2 text-center"><span>Our Flagship Products</span></h2>
 		<div class="top-p text-center">Premium, distilled-on-site spirits and a world-class<br> cocktail program to match</div>
 		<div class="container">
 			<div class="flex-box prod-block">
