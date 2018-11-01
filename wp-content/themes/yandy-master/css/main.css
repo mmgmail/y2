@@ -206,6 +206,8 @@ input, button, select, optgroup, textarea {
 @media (min-width: 1200px) {
   .container {
     max-width: 1460px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -723,6 +725,10 @@ input, button, select, optgroup, textarea {
   position: relative;
 }
 
+.room-text {
+  padding-top: 40px;
+}
+
 @media (max-width: 1200px) {
   .header-bottom__left {
     width: 80%;
@@ -771,8 +777,14 @@ input, button, select, optgroup, textarea {
 }
 
 .coctails-images img {
-  max-width: 100%;
+  max-width: 34%;
   height: auto;
+}
+
+.our-products__bottles {
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .hand-p1 {
@@ -972,6 +984,16 @@ input, button, select, optgroup, textarea {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   padding-top: 5px;
+}
+
+.our-products {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hand-p-products {
+  max-width: 730px;
+  margin: auto;
 }
 
 .products .top-p {

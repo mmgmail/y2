@@ -106,24 +106,31 @@ wp_reset_query();
 		</div>
 	</section>
 
-	<section>
-
+	<section class="our-products">
+		<div class="container">
+			<div class="hand-p-products">
+				<div class="top-h1-2">CRAFT DISTILLED<span class="text-center">Our Products</span></div>
+				<div class="top-p">Distilling high quality craft spirits is our passion, and we believe you can see this in every product we release. Learn about our spirits below.</div>
+				<a class="top-btn js-menu-popup" href="#"><u>Learn More</u></a>
+			</div>
+		</div>
+		<img src="<?php echo get_template_directory_uri();?>/img/bottles.jpg"
+	       srcset="<?php echo get_template_directory_uri();?>/img/bottles@2x.jpg 2x,
+	             <?php echo get_template_directory_uri();?>/img/bottles@3x.jpg 3x"
+				 class="our-products__bottles">
 	</section>
 
 	<section class="room">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-6 popup-gallery text-center">
-					<a href="<?php echo get_template_directory_uri();?>/img/testing.png"><img src="<?php echo get_template_directory_uri();?>/img/testing.png" data-object-fit="true" class="img-fluid room-img" alt="room"></a>
-					<a href="<?php echo get_template_directory_uri();?>/img/testing.png">
-						<div class="gallery-btn">
-							<div><i class="fa fa-search" aria-hidden="true"></i></div>
-							<div><span>Gallery</span></div>
-						</div>
-					</a>
+					<img src="<?php echo get_template_directory_uri();?>/img/group-24.jpg"
+					     srcset="<?php echo get_template_directory_uri();?>/img/group-24@2x.jpg 2x,
+					             <?php echo get_template_directory_uri();?>/img/group-24@3x.jpg 3x"
+					     data-object-fit="true" class="img-fluid room-img" alt="room">
 				</div>
 				<div class="col-12 col-lg-6 room-text">
-					<div class="top-h1-2"><span>Tasting Room & Event Space</span></div>
+					<div class="top-h1-2">OUR SPACE<span>Tasting Room & Event Space</span></div>
 					<div class="top-p">Our light and airy space provides the perfect relaxed-yet-sophisticated setting to enjoy an elevated imbibing experience. Stop by for a coctail, enjoy a tasting filght or book an event with us. We can accommodate groups of up to 85.</div>
 					<a href="blog2.html" class="top-btn"><u>Read More</u></a>
 				</div>
