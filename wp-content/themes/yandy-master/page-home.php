@@ -141,12 +141,26 @@ wp_reset_query();
 			</div>
 		</div>
 	</section>
+
+	<section class="our-products">
+		<div class="container">
+			<div class="hand-p-products">
+				<h2 class="top-h1-2">CANNED COCKTAILS<span class="text-center">Ready-To-Drink</span></h2>
+				<div class="top-p">Our canned cocktails are perfect for any occasion. Find out where  you can get them and how they are  made by clicking the link below.</div>
+				<a class="top-btn js-menu-popup" href="#"><u>Learn More</u></a>
+			</div>
+		</div>
+		<img src="<?php echo get_template_directory_uri();?>/img/g-t-jpg.jpg"
+	       srcset="<?php echo get_template_directory_uri();?>/img/g-t-jpg@2x.jpg 2x,
+	             <?php echo get_template_directory_uri();?>/img/g-t-jpg@3x.jpg 3x"
+				 class="our-products__bottles">
+	</section>
+
 	<section class="bringing">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-xl-6 bringing-text ">
-					<div class="marker">“</div>
-					<h2 class="top-h1-2"><span>It’s about bringing people together.</span></h2>
+					<h2 class="top-h1-2">OUR MISSON<span>It’s about bringing people together.</span></h2>
 					<div class="top-p">Launched in March of 2017 after almost three years of planning, You & Yours Distilling Co. is a full production distillety, tasting room and event space, comlete with a world-class coctail program highlighting our current spirits offerings.</div>
 					<div class="top-p">Salvaged wood, whitewashed brick, exposed concrete, push velvet, denim linen, copper and marble accents come together to create a fresh, unique and insta-worthy atmosphare.</div>
 					<a href="<?php the_field('book-event'); ?>" class="top-btn" target="_blank"><u>Book Event</u></a>
@@ -160,33 +174,5 @@ wp_reset_query();
 			</div>
 		</div>
 	</section>
-	<section class="products">
-		<h2 class="top-h1-2 text-center"><span>Our Flagship Products</span></h2>
-		<div class="top-p text-center">Premium, distilled-on-site spirits and a world-class<br> cocktail program to match</div>
-		<div class="container">
-			<div class="flex-box prod-block">
-				<div class="popup-gallery ">
-					<a href="<?php echo get_template_directory_uri();?>/img/prod1.png"><img src="<?php echo get_template_directory_uri();?>/img/prod1.png" class="img-fluid pd" alt="room"></a>
-					<a href="<?php echo get_template_directory_uri();?>/img/prod1.png">
-						<div class="gallery-btn gallery-btn-2">
-							<span><i class="fa fa-search" aria-hidden="true"></i></span></div>
-					</a>
-				</div>
-				<div class="popup-gallery ">
-					<a href="<?php echo get_template_directory_uri();?>/img/prod2.png"><img src="<?php echo get_template_directory_uri();?>/img/prod2.png" class="img-fluid pd" alt="room"></a>
-					<a href="<?php echo get_template_directory_uri();?>/img/prod2.png">
-						<div class="gallery-btn gallery-btn-2 ">
-							<span><i class="fa fa-search" aria-hidden="true"></i></span></div>
-					</a>
-				</div>
-				<div class="popup-gallery">
-					<a href="<?php echo get_template_directory_uri();?>/img/prod3.png"><img src="<?php echo get_template_directory_uri();?>/img/prod3.png" class="img-fluid pd" alt="room"></a>
-					<a href="<?php echo get_template_directory_uri();?>/img/prod3.png">
-						<div class="gallery-btn gallery-btn-2 ">
-							<span><i class="fa fa-search" aria-hidden="true"></i></span></div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+
 <?php get_footer(); ?>

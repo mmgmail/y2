@@ -203,6 +203,28 @@ input, button, select, optgroup, textarea {
   height: auto;
 }
 
+.book-event-submit__text {
+  font-family: Gotham;
+  font-size: 22.5px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-push-6 {
+    order: 1
+  }
+
+  .col-xl-pull-6 {
+    order: 0;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1460px;
@@ -1032,12 +1054,11 @@ input, button, select, optgroup, textarea {
 .footer1 {
   position: relative;
   z-index: 8;
-  min-height: 902px;
-  margin-top: -200px;
-  padding-top: 200px;
+  min-height: 650px;
+  padding-top: 100px;
   padding-bottom: 100px;
-  background: url(../img/bg-footer.png) center center no-repeat;
-  background-size: cover;
+  background: url(../img/vector-smart-object-copy-2.png) right bottom no-repeat #bfefe5;
+  background-size: 43% auto;
 }
 
 .footer1 .top-h1 span {
@@ -1055,40 +1076,51 @@ input, button, select, optgroup, textarea {
 }
 
 .footer-p1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 35px;
-  margin-bottom: 55px;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .contact-text {
-  padding-left: 90px;
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-style div input {
-  width: 250px;
-  height: 57px;
-  margin: 0 13px 30px;
-  border: 1px solid #bcbcbc;
+  width: 100%;
+  height: 65px;
+  border: none;
+  font-size: 29px;
+  font-family: 'Crimson Text', serif;
 }
 
 .form-style div textarea {
-  width: 535px;
+  width: 100%;
   min-height: 143px;
-  border: 1px solid #bcbcbc;
+  border: none;
+  font-size: 26px;
+  font-family: 'Crimson Text', serif;
 }
 
 .form-style div {
-  display: inline-block;
-  margin: 0 auto;
+  margin-top: 25px;
+  padding: 0 15px;
 }
 
 .form-style {
-  text-align: center;
+
 }
 
 .home-form {
-  margin-left: 45px;
+
 }
 
 .home-form input, .home-form textarea {
@@ -1102,20 +1134,10 @@ input, button, select, optgroup, textarea {
   border: 0;
   background-color: transparent;
   cursor: pointer;
-  float: right;
-  display: inline-block;
-}
-
-.home-footer-btn {
-  width: 100px;
-  height: 100px;
-  margin-top: 50px;
-  border-radius: 50%;
-  background-color: #000;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: all 0.3s;
+  outline: none!important;
+  height: 70px;
 }
 
 .book-event-submit:hover:enabled .home-footer-btn {
@@ -1128,6 +1150,7 @@ input, button, select, optgroup, textarea {
 
 .book-event-submit:enabled .lds-roller {
   display: none;
+  margin-left: 10px;
 }
 
 .book-event-submit:disabled .lds-roller {
@@ -1292,6 +1315,25 @@ input, button, select, optgroup, textarea {
   background-color: #ebebeb;
 }
 
+.header__section-footer_list {
+  padding: 0;
+}
+
+ a.header-link,
+.header__section-footer_list .header__section-top_date {
+  display: block;
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+
 .question-logo img {
   padding: 0 5px;
   background-color: #fff;
@@ -1434,7 +1476,7 @@ input, button, select, optgroup, textarea {
   }
   .footer-p1 {
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .blog-images img:first-child, .blog-images img:last-child {
     width: 47%;
@@ -1764,7 +1806,7 @@ input, button, select, optgroup, textarea {
     margin: 0 auto;
   }
   .form-style div input {
-    margin: 0 0px 20px;
+
   }
   .form-style div input, .form-style div textarea {
     width: 100%;
@@ -1775,7 +1817,6 @@ input, button, select, optgroup, textarea {
   .contact-text {
     padding-left: 0;
   }
-
   .header__section-top {
     display: none;
   }
