@@ -52,7 +52,7 @@
 								<input type="text" name="title" placeholder="What This About" required>
 							</div>
 							<div class="col-sm-6">
-								<input type="tel" name="phone" placeholder="Phone Number (Optional)">
+								<input type="tel" name="phone" placeholder="Phone Number">
 							</div>
 							<div class="col-xl-12">
 								<textarea name="message"  placeholder="Message or Questions" required></textarea>

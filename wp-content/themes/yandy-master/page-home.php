@@ -56,6 +56,9 @@ wp_reset_query();
 		</div>
 	</section>
 
+	<div class="">
+
+<div class="pattern-wrap-1">
 
 	<section class="hand-crafted">
 		<div class="container">
@@ -82,25 +85,25 @@ wp_reset_query();
 
 
 
-		<!-- <?php
-if ( have_posts() ) : // если имеются записи в блоге.
-   query_posts( array('cat' => '3',  'posts_per_page' => '3',  ));    // указываем ID рубрик, которые необходимо вывести.
-  while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+				<!-- <?php
+							if ( have_posts() ) : // если имеются записи в блоге.
+							   query_posts( array('cat' => '3',  'posts_per_page' => '3',  ));    // указываем ID рубрик, которые необходимо вывести.
+							  while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 
 
-?>
-<div class="hand-p2">
-					<?php the_post_thumbnail(); ?>
-					<p><a class="top-btn" href="<?php the_permalink();?>" style="color:#000;"><u><?php the_title(); ?></u></a></p>
-				</div>
+							?>
+							<div class="hand-p2">
+												<?php the_post_thumbnail(); ?>
+												<p><a class="top-btn" href="<?php the_permalink();?>" style="color:#000;"><u><?php the_title(); ?></u></a></p>
+											</div>
 
-<?php wp_reset_postdata();
+							<?php wp_reset_postdata();
 
-  endwhile;  // завершаем цикл.
-endif;
-/* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-wp_reset_query();
-?> -->
+							  endwhile;  // завершаем цикл.
+							endif;
+							/* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+							wp_reset_query();
+						?> -->
 
 			</div>
 		</div>
@@ -120,14 +123,20 @@ wp_reset_query();
 				 class="our-products__bottles">
 	</section>
 
+</div>
+
+<div class="pattern-wrap-2">
+
 	<section class="room">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-6 popup-gallery text-center">
-					<img src="<?php echo get_template_directory_uri();?>/img/group-24.jpg"
-					     srcset="<?php echo get_template_directory_uri();?>/img/group-24@2x.jpg 2x,
-					             <?php echo get_template_directory_uri();?>/img/group-24@3x.jpg 3x"
-					     data-object-fit="true" class="img-fluid room-img" alt="room">
+					<span class="popup-gallery-wrap">
+						<img src="<?php echo get_template_directory_uri();?>/img/group-24.jpg"
+						     srcset="<?php echo get_template_directory_uri();?>/img/group-24@2x.jpg 2x,
+						             <?php echo get_template_directory_uri();?>/img/group-24@3x.jpg 3x"
+						     data-object-fit="true" class="img-fluid room-img" alt="room">
+				  </span>
 				</div>
 				<div class="col-12 col-lg-6 room-text">
 					<h2 class="top-h1-2">OUR SPACE<span>Tasting Room & Event Space</span></h2>
@@ -155,6 +164,8 @@ wp_reset_query();
 	             <?php echo get_template_directory_uri();?>/img/g-t-jpg@3x.jpg 3x"
 				 class="our-products__bottles">
 	</section>
+
+</div>
 
 	<section class="bringing">
 		<div class="container">
