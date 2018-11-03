@@ -1924,9 +1924,7 @@ input, button, select, optgroup, textarea {
   .prod-block div {
     text-align: center;
   }
-  .form-style div textarea {
-    width: 250px;
-  }
+
   .book-event-submit {
     margin-right: 37%;
   }
@@ -1996,9 +1994,6 @@ input, button, select, optgroup, textarea {
   .form-style {
     width: 100%;
     margin: 0 auto;
-  }
-  .form-style div input {
-
   }
   .form-style div input, .form-style div textarea {
     width: 100%;

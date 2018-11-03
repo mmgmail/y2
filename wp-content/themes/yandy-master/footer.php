@@ -42,16 +42,16 @@
 				<div class="col-lg-6 col-xl-pull-6">
 					<form action="" method="post" class="home-form" name="contactForm" id="contactForm">
 						<div class="form-style row">
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<input type="text" name="name" placeholder="Full Name" required>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<input type="email" name="email" placeholder="Email" required>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<input type="text" name="title" placeholder="What This About" required>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<input type="tel" name="phone" placeholder="Phone Number">
 							</div>
 							<div class="col-xl-12">
