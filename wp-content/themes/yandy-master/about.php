@@ -26,55 +26,58 @@ $imageb5 = get_field('image_desc_bottom5');
            <img src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
   </section>
 
-  <section class="blog-header">
-    <div class="container">
-      <div class="snow-box head-snow-box blog-text">
-        <h1 class="top-h1-2 subtitle-h1"><span><?php the_field('name'); ?></span></h1>
-
-       <?php
-          if ( have_posts() ) : // если имеются записи в блоге.
-
-            while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
-          ?>
-            <div class="event-title-row"><span class="event-title name-event">Y&Y CURRENT EVENTS</span><span class="text-divider">|</span><span class="event-title data-event"><?php the_date(); ?></span><span class="text-divider">|</span><span class="event-title writer-event"><?php the_author(); ?></span></div>
-
-          <?php
-          the_content();
-
-           wp_reset_postdata();
-
-            endwhile;  // завершаем цикл.
-          endif;
-          /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-          wp_reset_query();
-        ?>
-      </div>
-    </div>
-  </section>
-
-  <section class="blog-info">
+<div class="about-blog-body">
+    <div class="about-blog-body-top"></div>
+    <section class="blog-header">
       <div class="container">
+        <div class="snow-box head-snow-box blog-text">
+          <h1 class="top-h1-2 subtitle-h1"><span><?php the_field('name'); ?></span></h1>
 
-        <div class="about-blog-images">
-          <span class="about-image-item">
-            <img src="<?php echo $imageb1['url']; ?>" alt="<?php echo $imageb1['alt']; ?>">
-          </span>
-          <span class="about-image-item">
-            <img src="<?php echo $imageb2['url']; ?>" alt="<?php echo $imageb2['alt']; ?>">
-          </span>
-          <span class="about-image-item">
-            <img src="<?php echo $imageb3['url']; ?>" alt="<?php echo $imageb3['alt']; ?>">
-          </span>
-          <span class="about-image-item">
-            <img src="<?php echo $imageb4['url']; ?>" alt="<?php echo $imageb4['alt']; ?>">
-          </span>
-          <span class="about-image-item">
-            <img src="<?php echo $imageb5['url']; ?>" alt="<?php echo $imageb5['alt']; ?>">
-          </span>
+         <?php
+            if ( have_posts() ) : // если имеются записи в блоге.
+
+              while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+            ?>
+              <div class="event-title-row"><span class="event-title name-event">Y&Y CURRENT EVENTS</span><span class="text-divider">|</span><span class="event-title data-event"><?php the_date(); ?></span><span class="text-divider">|</span><span class="event-title writer-event"><?php the_author(); ?></span></div>
+
+            <?php
+            the_content();
+
+             wp_reset_postdata();
+
+              endwhile;  // завершаем цикл.
+            endif;
+            /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+            wp_reset_query();
+          ?>
         </div>
-
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="blog-info">
+        <div class="container">
+
+          <div class="about-blog-images">
+            <span class="about-image-item">
+              <img src="<?php echo $imageb1['url']; ?>" alt="<?php echo $imageb1['alt']; ?>">
+            </span>
+            <span class="about-image-item">
+              <img src="<?php echo $imageb2['url']; ?>" alt="<?php echo $imageb2['alt']; ?>">
+            </span>
+            <span class="about-image-item">
+              <img src="<?php echo $imageb3['url']; ?>" alt="<?php echo $imageb3['alt']; ?>">
+            </span>
+            <span class="about-image-item">
+              <img src="<?php echo $imageb4['url']; ?>" alt="<?php echo $imageb4['alt']; ?>">
+            </span>
+            <span class="about-image-item">
+              <img src="<?php echo $imageb5['url']; ?>" alt="<?php echo $imageb5['alt']; ?>">
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+</div>
 
   <?php wp_footer(); ?>

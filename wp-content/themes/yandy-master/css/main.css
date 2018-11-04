@@ -287,7 +287,6 @@ input, button, select, optgroup, textarea {
 .pattern-wrap-1:after {
   content: '';
   background: url(../img/vector-smart-object.png) right top no-repeat / 31% auto;
-  position: relative;
   z-index: 0;
   position: absolute;
   left: 0;
@@ -310,7 +309,6 @@ input, button, select, optgroup, textarea {
 .pattern-wrap-2:before {
   content: '';
   background: url(../img/vector-smart-object-copy-3.png) left 53% no-repeat / 28% auto;
-  position: relative;
   z-index: 0;
   position: absolute;
   left: 0;
@@ -1384,6 +1382,43 @@ input, button, select, optgroup, textarea {
   background: #fff;
 }
 
+.about-blog-body {
+  position: relative;
+  min-height: 400px;
+}
+
+.about-blog-body:before {
+  content: '';
+  background: url(../img/vector-smart-object.png) right top no-repeat / 26% auto;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.about-blog-body:after {
+  content: '';
+  width: 330px;
+  height: 315px;
+  background-color: #bfefe5;
+  z-index: -2;
+  position: absolute;
+  right: 16%;
+  bottom: 6%;
+}
+
+.about-blog-body-top {
+  position: absolute;
+  width: 277px;
+  height: 315px;
+  background-color: #bfefe5;
+  top: -9%;
+  left: 0;
+  z-index: -1;
+}
+
 .about-image-item:nth-child(1),
 .about-image-item:nth-child(2) {
   width: 50%;
@@ -1403,6 +1438,12 @@ input, button, select, optgroup, textarea {
   max-width: 327px;
 }
 
+@media screen and (max-width: 1670px) {
+  .about-blog-body:after {
+    right: 0;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .about-image-item:nth-child(3),
   .about-image-item:nth-child(4),
@@ -1411,6 +1452,11 @@ input, button, select, optgroup, textarea {
     max-width: 33.333%;
     margin-top: 0;
     margin-left: 0;
+  }
+  .about-blog-body:before,
+  .about-blog-body:after,
+  .about-blog-body-top {
+    display: none;
   }
 }
 
