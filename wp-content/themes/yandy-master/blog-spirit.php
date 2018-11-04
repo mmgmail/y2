@@ -6,7 +6,7 @@ Template Post Type: red_book
 get_header();
 
 
-          
+
 ?>
 
 
@@ -20,7 +20,7 @@ if ( have_posts() ) : // если имеются записи в блоге.
 
   while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 ?>
-  	
+
     <div  class="img-fluid">
     	<?php the_post_thumbnail(); ?>
     </div>
@@ -28,12 +28,12 @@ if ( have_posts() ) : // если имеются записи в блоге.
   <section class="blog-header">
     <div class="container">
       <div  class="coming">
-      	       
+
         <div class="top-h1 "><?php the_title(); ?></div>
 
- 
+
         <h4><span class="name-event">Y&Y CURRENT EVENTS</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="data-event"><?php the_date(); ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="writer-event">written by <?php the_author(); ?></span></h4>
-   
+
 
 
 
@@ -44,13 +44,13 @@ the_content();
     </div>
   </section>
 <?php
-			
+
  wp_reset_postdata();
 
   endwhile;  // завершаем цикл.
 endif;
 /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-wp_reset_query();                
+wp_reset_query();
 ?>
 
 
@@ -63,19 +63,19 @@ wp_reset_query();
                    'publish' => true,
                    'paged' => get_query_var('paged'),
                );
-            
+
             query_posts($args);
 if ( have_posts() ) : // если имеются записи в блоге.
 
   while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 ?>
   <section class="container spirits-img-line">
-  	<?php 
+  	<?php
         	$foto_one = get_field('foto_one');
-$foto_two = get_field('foto_two');
-$foto_three = get_field('foto_three');
-$foto_four = get_field('foto_four');
-$brend = get_field('brend'); ?>
+          $foto_two = get_field('foto_two');
+          $foto_three = get_field('foto_three');
+          $foto_four = get_field('foto_four');
+          $brend = get_field('brend'); ?>
 
     <div  class="img-fluid">
     	<img src="<?php echo $brend['url']; ?>" alt="<?php echo $brend['alt']; ?>">
@@ -86,7 +86,7 @@ $brend = get_field('brend'); ?>
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-6 spirit-photo">
-        	
+
             	<?php the_post_thumbnail(); ?>
           <img src="<?php echo $foto_one['url']; ?>" alt="<?php echo $foto_one['alt']; ?>">
           <img src="<?php echo $foto_two['url']; ?>" alt="<?php echo $foto_two['alt']; ?>">
@@ -104,13 +104,13 @@ $brend = get_field('brend'); ?>
     </div>
   </section>
   <?php
-			
+
  wp_reset_postdata();
 
   endwhile;  // завершаем цикл.
 endif;
 /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-wp_reset_query();                
+wp_reset_query();
 ?>
 
 

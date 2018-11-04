@@ -73,25 +73,21 @@ if ( have_posts() ) : // если имеются записи в блоге.
         while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
     ?>
 
-    <?php
-
-      $image = get_field('image');
-      $image2 = get_field('image2');
-
-    ?>
-
     <section class="blog-info">
       <div class="container">
-        <div class="blog-images clearfix">
+          <div class="js-recent-blog">
 
-          <img data-object-fit="true" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-          <img data-object-fit="true" src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>">
+            <!-- <img data-object-fit="true" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+            <img data-object-fit="true" src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>"> -->
 
-        </div>
-        <div class="blog-text">
-          <div class="top-h1 "><a href="<?php the_permalink();?>" style="color:#000;"><?php the_title(); ?></a></div>
-          <?php the_content(); ?>
+              <a href="<?php the_permalink();?>">
+                <!-- <?php the_title(); ?> -->
+                <?php the_post_thumbnail('large'); ?>
+              </a>
+
+
           </div>
+
         </div>
       </div>
     </section>

@@ -1,46 +1,55 @@
 $(document).ready(function() {
-	$('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-		}
-	});
 
-	$('.js-menu-popup').magnificPopup({
-  	type: 'image',
-		tLoading: 'Loading image...',
-		image: {
-			tError: '<a href="%url%">The image</a> could not be loaded.'
-		}
-	});
+	// $('.popup-gallery').magnificPopup({
+	// 	delegate: 'a',
+	// 	type: 'image',
+	// 	tLoading: 'Loading image...',
+	// 	mainClass: 'mfp-img-mobile',
+	// 	gallery: {
+	// 		enabled: true,
+	// 		navigateByImgClick: true,
+	// 		preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+	// 	},
+	// 	image: {
+	// 		tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+	// 	}
+	// });
+	//
+	// $('.js-menu-popup').magnificPopup({
+  // 	type: 'image',
+	// 	tLoading: 'Loading image...',
+	// 	image: {
+	// 		tError: '<a href="%url%">The image</a> could not be loaded.'
+	// 	}
+	// });
 });
 
 
 $(document).on('ready', function() {
 
-  $(".center").slick({
-    infinite: true,
-    centerMode: true,
-    slidesToShow: 2,
-    autoplay: true,
-  	autoplaySpeed: 4000,
-    slidesToScroll: 1,
-		dots: false,
-		arrows: false
-  });
+  // $(".center").slick({
+  //   infinite: true,
+  //   centerMode: true,
+  //   slidesToShow: 2,
+  //   autoplay: true,
+  // 	autoplaySpeed: 4000,
+  //   slidesToScroll: 1,
+	// 	dots: false,
+	// 	arrows: false
+  // });
 
   $('.single-item').slick({
     autoplay:false,
   	slidesToScroll: 1,
   	dots:true,
+  	arrows:true,
+  });
+
+	$('.js-recent-blog').slick({
+    autoplay: false,
+  	// slidesToScroll: 2,
+		// slidesToShow: 4,
+  	dots: false,
   	arrows:true,
   });
 
