@@ -635,6 +635,23 @@ input, button, select, optgroup, textarea {
   margin: 6px 8px 0 8px;
 }
 
+.header__section-top_socials a:hover {
+  opacity: 0.7;
+}
+
+.blog-custom-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.blog-custom-image img {
+  width: 50%;
+  max-height: 500px;
+  padding: 10px;
+}
+
+
 @media screen and (max-width: 767px) {
   .header {
     height: 80px;
@@ -944,7 +961,7 @@ input, button, select, optgroup, textarea {
 }
 
 .event-title-row {
-  margin: 15px 0 20px 0;
+  margin: 15px 0 0px 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -971,7 +988,7 @@ input, button, select, optgroup, textarea {
 
 @media screen and (max-width: 1200px) {
   .event-title-row {
-    margin: 10px 0 15px 0;
+    margin: 10px 0 0px 0;
   }
 
   .event-title {
@@ -986,7 +1003,7 @@ input, button, select, optgroup, textarea {
 
 @media screen and (max-width: 767px) {
   .event-title-row {
-    margin: 8px 0 12px 0;
+    margin: 8px 0 0 0;
   }
 
   .event-title {
@@ -1002,8 +1019,20 @@ input, button, select, optgroup, textarea {
 .snow-box {
   max-width: 840px;
   margin: auto;
-  padding: 35px;
+}
+
+.snow-box__head {
+  padding-top: 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
   background: #fff;
+}
+
+.snow-box__body {
+  padding-bottom: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .head-snow-box {
@@ -1341,14 +1370,14 @@ input, button, select, optgroup, textarea {
   color: #6d6d6d;
 }
 
-.blog-images img:last-child {
-  display: inline-block;
-  float: right;
+.blog-images {
+  display: flex;
+  justify-content: center;
 }
 
-.blog-images img:first-child {
-  display: inline-block;
-  float: left;
+.blog-images img {
+  width: 50%;
+  padding: 10px;
 }
 
 .top-h2 {
@@ -1422,9 +1451,13 @@ input, button, select, optgroup, textarea {
   width: 277px;
   height: 315px;
   background-color: #bfefe5;
-  top: -9%;
+  top: -12%;
   left: 0;
   z-index: -1;
+}
+
+.simple-blog-body:after {
+  display: none;
 }
 
 .about-image-item:nth-child(1),
@@ -1793,7 +1826,7 @@ input, button, select, optgroup, textarea {
     margin-bottom: 20px;
   }
   .blog-images img:first-child, .blog-images img:last-child {
-    width: 47%;
+    width: 50%;
   }
   .spirit-photo img:nth-child(1) {
     display: none;
