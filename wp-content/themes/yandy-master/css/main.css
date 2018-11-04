@@ -208,6 +208,35 @@ input, button, select, optgroup, textarea {
   height: auto;
 }
 
+.blog-text p {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.51;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-text p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blog-text p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+}
+
 .book-event-submit__text {
   font-family: Gotham;
   font-size: 22.5px;
@@ -912,6 +941,79 @@ input, button, select, optgroup, textarea {
   display: block;
 }
 
+.top-h1-2.subtitle-h1 {
+  margin: 0;
+}
+
+.event-title-row {
+  margin: 15px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6d6d6d;
+}
+
+.text-divider {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6d6d6d;
+}
+
+@media screen and (max-width: 1200px) {
+  .event-title-row {
+    margin: 10px 0 15px 0;
+  }
+
+  .event-title {
+    font-size: 16px;
+  }
+
+  .text-divider {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .event-title-row {
+    margin: 8px 0 12px 0;
+  }
+
+  .event-title {
+    font-size: 8px;
+  }
+
+  .text-divider {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.snow-box {
+  max-width: 840px;
+  margin: auto;
+  padding: 35px;
+  background: #fff;
+}
+
+.head-snow-box {
+  margin-top: -60px;
+  position: relative;
+  padding-top: 1px;
+}
+
 .hand-p4, .hand-p3, .hand-p2 {
   margin-top: 45px;
   margin-left: 30px;
@@ -1233,13 +1335,6 @@ input, button, select, optgroup, textarea {
   color: #6d6d6d;
 }
 
-.coming {
-  width: 750px;
-  margin: 0 auto;
-  margin-top: -5px;
-  padding-bottom: 140px;
-}
-
 .blog-images img:last-child {
   display: inline-block;
   float: right;
@@ -1260,20 +1355,63 @@ input, button, select, optgroup, textarea {
   color: #3e3e3e;
 }
 
-.blog-text .top-h1 {
-  padding-top: 620px;
-  padding-left: 45px;
-}
-
 .blog-text {
-  width: 810px;
-  margin: 0 auto;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .border-box {
   margin-top: 40px;
   padding-left: 35px;
   border-left: 10px solid #e2f5f1;
+}
+
+.about-blog-images {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about-blog-images img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-image-item {
+  padding: 5px;
+  background: #fff;
+}
+
+.about-image-item:nth-child(1),
+.about-image-item:nth-child(2) {
+  width: 50%;
+}
+
+.about-image-item:nth-child(3) {
+  max-width: 400px;
+  margin-top: -90px;
+  margin-left: -35px;
+}
+
+.about-image-item:nth-child(4) {
+  max-width: 455px;
+}
+
+.about-image-item:nth-child(5) {
+  max-width: 327px;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-image-item:nth-child(3),
+  .about-image-item:nth-child(4),
+  .about-image-item:nth-child(5) {
+    width: 33%;
+    max-width: 33.333%;
+    margin-top: 0;
+    margin-left: 0;
+  }
 }
 
 .border-box p {
@@ -1603,9 +1741,6 @@ input, button, select, optgroup, textarea {
   .blog-images img:first-child, .blog-images img:last-child {
     width: 47%;
   }
-  .blog-text .top-h1 {
-    padding-top: 520px;
-  }
   .spirit-photo img:nth-child(1) {
     display: none;
   }
@@ -1762,12 +1897,6 @@ input, button, select, optgroup, textarea {
   .coming {
     width: 515px;
     padding-bottom: 50px;
-  }
-  .blog-text .top-h1 {
-    padding-top: 400px;
-  }
-  .blog-text {
-    width: 565px;
   }
   .gallery-btn {
     left: 30px;
@@ -1931,9 +2060,7 @@ input, button, select, optgroup, textarea {
   .row {
     margin: 0;
   }
-  .blog-text .top-h1 {
-    padding-top: 350px;
-  }
+
   .spirit-photo {
     padding: 0 35px;
   }
@@ -2013,7 +2140,8 @@ input, button, select, optgroup, textarea {
 
   .top-h1-2 span {
     font-size: 30px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .slick-dots {
@@ -2131,12 +2259,6 @@ input, button, select, optgroup, textarea {
     width: 375px;
     padding-bottom: 30px;
   }
-  .blog-text .top-h1 {
-    padding-top: 245px;
-  }
-  .blog-text {
-    width: 435px;
-  }
   .blog-text {
     font-size: 65px;
   }
@@ -2198,9 +2320,6 @@ input, button, select, optgroup, textarea {
   }
   .coming {
     width: 300px;
-  }
-  .blog-text {
-    width: 360px;
   }
 }
 
