@@ -43,14 +43,40 @@ $(document).on('ready', function() {
   	slidesToScroll: 1,
   	dots:true,
   	arrows:true,
+		infinite: true,
   });
 
 	$('.js-recent-blog').slick({
     autoplay: false,
-  	// slidesToScroll: 2,
-		// slidesToShow: 4,
+  	slidesToScroll: 1,
+		slidesToShow: 4,
   	dots: false,
-  	arrows:true,
+  	arrows: true,
+		infinite: true,
+		responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+				slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 3,
+				slidesToScroll: 1
+      }
+    },
+		{
+      breakpoint: 479,
+      settings: {
+        arrows: false,
+        slidesToShow: 2,
+				slidesToScroll: 1
+      }
+    }
+  ]
   });
 
 
