@@ -12,7 +12,6 @@ get_header();
   $prev = get_field('image_previe');
   $images = get_field('image_desc2');
   $image = get_field('image_desc');
-  $images = get_field('image_desc2');
   $imageb1 = get_field('image_desc_bottom1');
   $imageb2 = get_field('image_desc_bottom2');
   $imageb3 = get_field('image_desc_bottom3');

@@ -1713,6 +1713,15 @@ input, button, select, optgroup, textarea {
   background-color: #fff;
 }
 
+.spirit-brand {
+  text-align: center;
+}
+
+.spirit-brand img {
+  max-width: 800px;
+  display: inline-block;
+}
+
 .lds-roller {
   display: inline-block;
   position: relative;
