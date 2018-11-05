@@ -23,13 +23,21 @@ if ( have_posts() ) : // если имеются записи в блоге.
   </section>
   <section class="blog-header">
     <div class="container">
-      <div  class="coming">
-        <div class="top-h1 "><?php the_title(); ?></div>
-       <h4><span class="name-event">Y&Y CURRENT EVENTS</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="data-event"><?php the_date(); ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="writer-event">written by <?php the_author(); ?></span></h4>
-   
-<?php
-the_content();?>
+
+      <div  class="snow-box head-snow-box blog-text">
+
+        <div class="snow-box__head">
+          <h1 class="top-h1-2 subtitle-h1"><span><?php the_title(); ?></span></h1>
+          <div class="event-title-row"><span class="event-title name-event">Y&Y CURRENT EVENTS</span><span class="text-divider">|</span><span class="event-title data-event"><?php the_date(); ?></span><span class="text-divider">|</span><span class="event-title writer-event"><?php the_author(); ?></span></div>
+        </div>
+
+        <div class="snow-box__body">
+          <?php
+          the_content();?>
+        </div>
+        
       </div>
+
     </div>
   </section>
 <?php
