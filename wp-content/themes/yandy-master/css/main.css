@@ -1531,31 +1531,31 @@ input, button, select, optgroup, textarea {
 }
 
 @media screen and (max-width: 1500px) {
-  .slick-initialized .slick-slide > div {
+  .recent-posts-wrap .slick-initialized .slick-slide > div {
     height: 320px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .slick-initialized .slick-slide > div {
+  .recent-posts-wrap .slick-initialized .slick-slide > div {
     height: 280px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .slick-initialized .slick-slide > div {
+  .recent-posts-wrap .slick-initialized .slick-slide > div {
     height: 240px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .slick-initialized .slick-slide > div {
+  .recent-posts-wrap .slick-initialized .slick-slide > div {
     height: 220px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .slick-initialized .slick-slide > div {
+  .recent-posts-wrap .slick-initialized .slick-slide > div {
     overflow: hidden;
     height: 180px;
   }
@@ -1713,13 +1713,76 @@ input, button, select, optgroup, textarea {
   background-color: #fff;
 }
 
+.spirit-products-wrap {
+  margin-bottom: 100px;
+}
+
 .spirit-brand {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .spirit-brand img {
   max-width: 800px;
   display: inline-block;
+}
+
+.spirit-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spirit-product__content {
+  max-width: 510px;
+}
+
+.spirit-product__content:not(.content-order) {
+  padding-left: 50px;
+}
+
+.spirit-product__content.content-order {
+  padding-right: 50px;
+}
+
+.spirit-product__thumb {
+
+}
+
+.spirit-product__thumb img {
+  max-width: 100%;
+  height: auto;
+  max-height: 800px;
+}
+
+.spirit-product__descr {
+  margin: 50px 0 30px;
+}
+
+.spirit-product__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+}
+
+.spirit-product__list li {
+  margin-bottom: 15px;
+  display: list-item;
+  padding: 0 0 0 40px;
+  position: relative;
+  font-size: 20px;
+  line-height: 1.27;
+  text-align: left;
+  color: #231f20;
+}
+
+.spirit-product__list li:before {
+  content: '•';
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .lds-roller {
@@ -2005,6 +2068,14 @@ input, button, select, optgroup, textarea {
   .pattern-wrap-1:before {
     display: none;
   }
+
+  .spirit-product__list li {
+    font-size: 16px;
+  }
+
+  .spirit-brand img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 988px) {
@@ -2183,6 +2254,8 @@ input, button, select, optgroup, textarea {
   .blog-text {
     padding: 0;
   }
+
+
 }
 
 @media (max-width: 770px) {
@@ -2365,6 +2438,56 @@ input, button, select, optgroup, textarea {
 
   .footer1 {
     background-size: 70% auto;
+  }
+
+  .spirit-product__content:not(.content-order) {
+    padding-left: 0;
+  }
+
+  .spirit-product__descr {
+    margin: 20px 0 20px;
+  }
+
+  .spirit-product {
+    flex-direction: column;
+  }
+
+  .spirit-product__thumb img {
+    max-height: 350px;
+    margin-bottom: 20px;
+  }
+
+  .spirit-product__list li {
+    font-size: 14px;
+    padding-left: 25px;
+  }
+
+  .spirit-product__content.content-order {
+    order: 1;
+  }
+
+  .spirit-product__thumb.thumb-order {
+    order: 0;
+  }
+
+  .blog-banner img {
+    object-fit: cover;
+  }
+
+  .snow-box__head {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  .snow-box__body {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .spirit-products-wrap {
+    margin-bottom: 40px;
   }
 }
 

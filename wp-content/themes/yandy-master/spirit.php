@@ -15,6 +15,18 @@ if ( have_posts() ) : // если имеются записи в блоге.
 
 <?php
   $brend = get_field('brend');
+  $product_img1 = get_field('product_img1');
+  $product_title1 = get_field('product_title1');
+  $product_descr1 = get_field('product_descr1');
+  $product_list1 = get_field('product_list1');
+  $product_img2 = get_field('product_img2');
+  $product_title2 = get_field('product_title2');
+  $product_descr2 = get_field('product_descr2');
+  $product_list2 = get_field('product_list2');
+  $product_img3 = get_field('product_img3');
+  $product_title3 = get_field('product_title3');
+  $product_descr3 = get_field('product_descr3');
+  $product_list3 = get_field('product_list3');
 ?>
 
   <section class="blog-banner container">
@@ -25,7 +37,7 @@ if ( have_posts() ) : // если имеются записи в блоге.
   </section>
 
 <div class="about-blog-body simple-blog-body">
-  <div class="about-blog-body-top"></div>
+  <!-- <div class="about-blog-body-top"></div> -->
 
   <section class="blog-header">
 
@@ -54,7 +66,46 @@ if ( have_posts() ) : // если имеются записи в блоге.
       <div class="spirit-brand">
         <img src="<?php echo $brend['url']; ?>" alt="<?php echo $brend['alt']; ?>">
       </div>
+      <div class="spirit-products-wrap clearfix">
+        <div class="spirit-product">
+          <div class="spirit-product__thumb">
+            <img src="<?php echo $product_img1['url']; ?>" alt="<?php echo $product_img1['alt']; ?>">
+          </div>
+          <div class="spirit-product__content">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span><?php echo $product_title1; ?></span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p><?php echo $product_descr1; ?></p></div>
+            <ul class="spirit-product__list"><?php echo $product_list1; ?></ul>
+          </div>
+        </div>
 
+        <div class="spirit-product">
+          <div class="spirit-product__content content-order">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span><?php echo $product_title2; ?></span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p><?php echo $product_descr2; ?></p></div>
+            <ul class="spirit-product__list"><?php echo $product_list2; ?></ul>
+          </div>
+          <div class="spirit-product__thumb thumb-order">
+            <img src="<?php echo $product_img2['url']; ?>" alt="<?php echo $product_img2['alt']; ?>">
+          </div>
+        </div>
+
+        <div class="spirit-product">
+          <div class="spirit-product__thumb">
+            <img src="<?php echo $product_img3['url']; ?>" alt="<?php echo $product_img3['alt']; ?>">
+          </div>
+          <div class="spirit-product__content">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span><?php echo $product_title3; ?></span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p><?php echo $product_descr3; ?></p></div>
+            <ul class="spirit-product__list"><?php echo $product_list3; ?></ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   </div>
