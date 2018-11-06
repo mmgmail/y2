@@ -1,4 +1,39 @@
 $(document).ready(function() {
+  setTimeout(function() {
+    if(!localStorage.age) {
+      $.magnificPopup.open({
+        items: {
+          src: '<section class="question-block">'+
+            '<div class="in-block">'+
+              '<div class="question-logo"><img src="http://localhost:8888/y2/wp-content/uploads/2018/08/logo.png" alt="logo"></div>'+
+              '<div class="question">Quick Question.<br>  Are you over the<br> age of 21?</div>'+
+              '<div style="margin:0 auto; width:205px;">'+
+                '<div class="yes js-popap-close"><span>Yes!</span></div>'+
+                '<div class="no js-window-close"><span>No</span></div>'+
+              '</div>'+
+            '</div>'+
+          '</section>',
+          type: 'inline',
+        },
+        modal: true,
+        mainClass: 'mfp-fade'
+      });
+
+      $('.js-popap-close').click(function() {
+        localStorage.age = true;
+        $.magnificPopup.close();
+      });
+
+      $('.js-window-close').click(function() {
+        window.close();
+      });
+    }
+
+  }, 1300);
+})
+
+
+$(document).ready(function() {
 
 	// $('.popup-gallery').magnificPopup({
 	// 	delegate: 'a',
@@ -15,6 +50,7 @@ $(document).ready(function() {
 	// 	}
 	// });
 	//
+
 	$('.js-menu-popup').magnificPopup({
   	type: 'image',
 		tLoading: 'Loading image...',

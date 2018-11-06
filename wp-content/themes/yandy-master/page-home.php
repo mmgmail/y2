@@ -12,6 +12,17 @@
 		$menu = get_field('menu');
 
 	?>
+	
+	<!-- <section class="question-block">
+    <div class="in-block">
+      <div class="question-logo"><img src="img/logo.png" alt="logo"></div>
+    	<div class="question">Quick Question.<br>  Are you over the<br> age of 21?</div>
+      <div style="margin:0 auto; width:205px;">
+        <div class="yes"><a href="/">Yes!</a></div>
+        <div class="no"><a href="">No</a></div>
+      </div>
+		</div>
+  </section> -->
 
 	<section class="top-slider">
 		<div class="container">
