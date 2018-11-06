@@ -15,13 +15,13 @@ $(document).ready(function() {
 	// 	}
 	// });
 	//
-	// $('.js-menu-popup').magnificPopup({
-  // 	type: 'image',
-	// 	tLoading: 'Loading image...',
-	// 	image: {
-	// 		tError: '<a href="%url%">The image</a> could not be loaded.'
-	// 	}
-	// });
+	$('.js-menu-popup').magnificPopup({
+  	type: 'image',
+		tLoading: 'Loading image...',
+		image: {
+			tError: '<a href="%url%">The image</a> could not be loaded.'
+		}
+	});
 });
 
 

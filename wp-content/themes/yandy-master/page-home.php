@@ -54,7 +54,7 @@
 
   <div class="pattern-wrap-1">
 
-		<section class="hand-crafted">
+		<section id="menu" class="hand-crafted">
 			<div class="container">
 				<div class="flex-box">
 					<div class="hand-p1">
