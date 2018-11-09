@@ -30,6 +30,10 @@ $(document).ready(function() {
     }
 
   }, 1300);
+
+  $('.fixed-today-bar button').click(function() {
+    $(this).parent().fadeOut();
+  });
 })
 
 

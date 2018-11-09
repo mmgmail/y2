@@ -161,3 +161,9 @@
 				</div>
 			</div>
 	</section>
+
+	<div class="fixed-today-bar">
+		<button type="button"><i class="fas fa-times"></i></button>
+		<div class="fixed-today-bar__title">Directions / Hours Today</div>
+		<div class="fixed-today-bar__hours js-today">1495 G ST, San Diego 92101 / <span></span></div>
+	</div>
