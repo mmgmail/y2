@@ -2433,8 +2433,6 @@ textarea
     padding-right: 50px;
 }
 
-
-
 .spirit-product__thumb img
 {
     max-width: 100%;
@@ -2483,6 +2481,58 @@ textarea
     left: 0;
 
     content: '•';
+}
+
+.press-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.press-list__item {
+  width: 49.5%;
+}
+
+.press-list__thumb {
+  height: 400px;
+}
+
+.press-list__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.press-list__content {
+  padding: 35px;
+  background: #fff;
+  max-width: 90%;
+  margin: -150px auto 0;
+  position: relative;
+}
+
+.press-list__content h3 {
+  font-family: 'Crimson Text', serif;
+  font-size: 52px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.press-list__content p {
+  font-size: 22px;
+  line-height: 1.41;
+  text-align: left;
+  color: #000000;
+}
+
+.press-list__content a {
+
 }
 
 .lds-roller

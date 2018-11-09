@@ -13,12 +13,6 @@ if ( have_posts() ) : // если имеются записи в блоге.
   while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 ?>
 
-<?php
-  $imaged1 = get_field('image_descr1');
-  $imaged2 = get_field('image_descr2');
-  $description = get_field('description');
-?>
-
   <section class="blog-banner container">
 
     <div class="img-fluid">
@@ -32,37 +26,56 @@ if ( have_posts() ) : // если имеются записи в блоге.
   <section class="blog-header">
 
     <div class="container">
-      <div  class="snow-box head-snow-box blog-text">
+        <div  class="snow-box head-snow-box blog-text">
 
-        <div class="snow-box__head">
-          <h1 class="top-h1-2 subtitle-h1"><span><?php the_field('name'); ?></span></h1>
-          <div class="event-title-row"><span class="event-title name-event">Y&Y CURRENT EVENTS</span><span class="text-divider">|</span><span class="event-title data-event"><?php the_date(); ?></span><span class="text-divider">|</span><span class="event-title writer-event"><?php the_author(); ?></span></div>
+          <div class="snow-box__head">
+            <h1 class="top-h1-2 subtitle-h1"><span><?php the_field('name'); ?></span></h1>
+            <div class="event-title-row"><span class="event-title name-event">Y&Y CURRENT EVENTS</span><span class="text-divider">|</span><span class="event-title data-event"><?php the_date(); ?></span><span class="text-divider">|</span><span class="event-title writer-event"><?php the_author(); ?></span></div>
+          </div>
+
+          <div class="snow-box__body">
+        <?php
+        the_content();
+
+         wp_reset_postdata();
+
+          endwhile;  // завершаем цикл.
+        endif;
+        /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+        wp_reset_query();
+        ?>
+      </div>
+    </div>
+
+    <div class="press-list">
+      <?php
+      if ( have_posts() ) : // если имеются записи в блоге.
+         query_posts( array('category_name' => 'press'));    // указываем ID рубрик, которые необходимо вывести.
+        while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
+      ?>
+
+      <div class="press-list__item">
+        <div class="press-list__thumb">
+          <?php the_post_thumbnail('large'); ?>
         </div>
-
-        <div class="snow-box__body">
-  <?php
-  the_content();
-
-   wp_reset_postdata();
-
-    endwhile;  // завершаем цикл.
-  endif;
-  /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
-  wp_reset_query();
-  ?>
+        <div class="press-list__content">
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
+          <a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
         </div>
       </div>
 
-      <div class="blog-custom-image">
-        <img data-object-fit="true" src="<?php echo $imaged1['url']; ?>" alt="<?php echo $imaged1['alt']; ?>">
-        <img data-object-fit="true" src="<?php echo $imaged2['url']; ?>" alt="<?php echo $imaged2['alt']; ?>">
-      </div>
+      <?php wp_reset_postdata();
 
-      <div  class="snow-box blog-text">
-        <div class="snow-box__body">
-            <?php echo $description; ?>
-        </div>
-      </div>
+        endwhile;  // завершаем цикл.
+      endif;
+      /* Сбрасываем настройки цикла. Если ниже по коду будет идти еще один цикл, чтобы не было сбоя. */
+      wp_reset_query();
+      ?>
+    </div>
+
+
+
 
     </div>
   </section>
@@ -79,7 +92,7 @@ if ( have_posts() ) : // если имеются записи в блоге.
       <div class="js-recent-blog">
         <?php
           if ( have_posts() ) : // если имеются записи в блоге.
-           query_posts( array('cat' => '2'  ));    // указываем ID рубрик, которые необходимо вывести.
+           query_posts( array('posts_per_page' => '5'));    // указываем ID рубрик, которые необходимо вывести.
             while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
         ?>
 

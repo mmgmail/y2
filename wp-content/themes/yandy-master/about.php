@@ -93,7 +93,7 @@ get_header();
     <div class="js-recent-blog">
       <?php
         if ( have_posts() ) : // если имеются записи в блоге.
-         query_posts( array('cat' => '2'  ));    // указываем ID рубрик, которые необходимо вывести.
+         query_posts( array('posts_per_page' => '5'));      // указываем ID рубрик, которые необходимо вывести.
           while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
       ?>
 

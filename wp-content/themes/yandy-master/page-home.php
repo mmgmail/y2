@@ -12,7 +12,7 @@
 		$menu = get_field('menu');
 
 	?>
-	
+
 	<!-- <section class="question-block">
     <div class="in-block">
       <div class="question-logo"><img src="img/logo.png" alt="logo"></div>
@@ -34,7 +34,7 @@
 					<div class="carousel-inner sl1 single-item">
 						<?php
 						if ( have_posts() ) : // если имеются записи в блоге.
-						   query_posts( array('cat' => '2', 'posts_per_page' => '4',  ));    // указываем ID рубрик, которые необходимо вывести.
+						   query_posts( array('posts_per_page' => '4',  ));    // указываем ID рубрик, которые необходимо вывести.
 						  while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 						?>
 
@@ -113,7 +113,7 @@
 				</div>
 			</div>
 		</section>
-
+		
 		<section class="our-products">
 			<div class="container">
 				<div class="hand-p-products">
