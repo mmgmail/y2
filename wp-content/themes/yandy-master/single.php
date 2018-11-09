@@ -78,4 +78,6 @@ if ( have_posts() ) : // если имеются записи в блоге.
   </section>
   </div>
 
+  <?php  include 'recent-blog.php' ?>
+
 <?php wp_footer(); ?>
