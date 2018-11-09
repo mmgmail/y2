@@ -750,7 +750,10 @@ textarea
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .over
@@ -880,7 +883,8 @@ textarea
     width: 50%;
     height: 500px;
     padding: 10px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 @media screen and (max-width: 1199px)
@@ -890,7 +894,8 @@ textarea
         width: 50%;
         height: 300px;
         padding: 10px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .blog-custom-image {
@@ -911,7 +916,8 @@ textarea
         width: 50%;
         height: 250px;
         padding: 10px;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .blog-custom-image {
@@ -1732,7 +1738,8 @@ textarea
     min-height: 220px;
     max-height: 560px;
     width: 100%!important;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 [data-object-fit='true']
@@ -2290,7 +2297,7 @@ textarea
   opacity: 0;
 
   -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
 /* overlay animate in */
@@ -2307,7 +2314,7 @@ textarea
   opacity: 0;
 
   -webkit-transition: all 0.15s ease-out;
-  -moz-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
 }
 /* content animate it */
@@ -2517,9 +2524,14 @@ textarea
 }
 
 .press-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -2534,7 +2546,8 @@ textarea
 .press-list__thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .press-list__content {
