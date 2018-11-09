@@ -46,6 +46,7 @@ if ( ! function_exists( 'yandy_master_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'yandy-master' ),
 			'menu-2' => esc_html__( 'Secondary', 'yandy-master' ),
+			'menu-3' => esc_html__( 'Third', 'yandy-master' ),
 		) );
 
 		/*

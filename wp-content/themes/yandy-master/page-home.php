@@ -113,13 +113,13 @@
 				</div>
 			</div>
 		</section>
-		
+
 		<section class="our-products">
 			<div class="container">
 				<div class="hand-p-products">
 					<h2 class="top-h1-2">CRAFT DISTILLED<span class="text-center">Our Products</span></h2>
 					<div class="top-p">Distilling high quality craft spirits is our passion, and we believe you can see this in every product we release. Learn about our spirits below.</div>
-					<a class="top-btn js-menu-popup" href="#"><u>Learn More</u></a>
+					<a class="top-btn" href="<?php echo get_permalink(); ?>/spirits/"><u>Learn More</u></a>
 				</div>
 			</div>
 			<img src="<?php echo get_template_directory_uri();?>/img/bottles.jpg"
@@ -161,7 +161,7 @@
 				<div class="hand-p-products">
 					<h2 class="top-h1-2">CANNED COCKTAILS<span class="text-center">Ready-To-Drink</span></h2>
 					<div class="top-p">Our canned cocktails are perfect for any occasion. Find out where  you can get them and how they are  made by clicking the link below.</div>
-					<a class="top-btn js-menu-popup" href="#"><u>Learn More</u></a>
+					<a class="top-btn" href="<?php echo get_permalink(); ?>/coctails/"><u>Learn More</u></a>
 				</div>
 			</div>
 			<img src="<?php echo get_template_directory_uri();?>/img/g-t-jpg.jpg"

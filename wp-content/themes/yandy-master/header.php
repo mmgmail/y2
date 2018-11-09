@@ -44,11 +44,32 @@
 		<div class="menu">
 			<i class="fa fa-times" aria-hidden="true"></i>
 
+				<span class="menu-mobile-show">
 				<?php
+					wp_nav_menu( array(
+						'theme_location'  => 'menu-1',
+						'menu'            => 'menu-1',
+						'container'       => 'ul',
+						'container_class' => '',
+						'container_id'    => '',
+						'menu_class'      => 'my-menu',
+						'menu_id'         => '',
+						'echo'            => true,
+						'fallback_cb'     => 'wp_page_menu',
+						'before'          => '',
+						'after'           => '',
+						'link_before'     => '',
+						'link_after'      => '',
+						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'depth'           => 0,
+						'walker'          => '',
+					) ); ?>
+				</span>
 
+				<?php
 				wp_nav_menu( array(
-					'theme_location'  => 'menu-1',
-					'menu'            => 'menu-1',
+					'theme_location'  => 'menu-3',
+					'menu'            => 'menu-3',
 					'container'       => 'ul',
 					'container_class' => '',
 					'container_id'    => '',

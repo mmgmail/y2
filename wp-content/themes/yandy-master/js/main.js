@@ -81,6 +81,16 @@ $(document).on('ready', function() {
   	dots:true,
   	arrows:true,
 		infinite: true,
+    responsive: [
+      {
+        breakpoint: 770,
+        settings: {
+          dots:false,
+          arrows:false,
+          autoplay:false,
+        }
+      }
+    ]
   });
 
 	$('.js-recent-blog').slick({
@@ -91,28 +101,28 @@ $(document).on('ready', function() {
   	arrows: true,
 		infinite: true,
 		responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 4,
-				slidesToScroll: 1
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+  				slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+  				slidesToScroll: 1
+        }
+      },
+  		{
+        breakpoint: 479,
+        settings: {
+          arrows: false,
+          slidesToShow: 2,
+  				slidesToScroll: 1
+        }
       }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 3,
-				slidesToScroll: 1
-      }
-    },
-		{
-      breakpoint: 479,
-      settings: {
-        arrows: false,
-        slidesToShow: 2,
-				slidesToScroll: 1
-      }
-    }
   ]
   });
 

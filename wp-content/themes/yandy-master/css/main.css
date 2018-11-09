@@ -249,7 +249,8 @@ textarea
     color: #000;
 }
 
-#menu-menu-1
+#menu-menu-1,
+#menu-menu-3
 {
     margin: 0;
     padding: 0;
@@ -277,6 +278,12 @@ textarea
     letter-spacing: normal;
 
     color: #000;
+}
+
+@media (min-width: 768px) {
+  #menu-menu-1 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px)
@@ -692,8 +699,6 @@ textarea
 
 .top-header-btn
 {
-    display: none;
-
     margin-top: -10px;
 }
 
@@ -745,6 +750,7 @@ textarea
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .over
@@ -801,7 +807,7 @@ textarea
 {
     line-height: 1.5;
 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     list-style-type: none;
 
@@ -815,7 +821,7 @@ textarea
 
     display: inline-block;
 
-    padding: 15px;
+    padding: 5px;
 
     text-transform: uppercase;
 
@@ -877,8 +883,24 @@ textarea
 .blog-custom-image img
 {
     width: 50%;
-    max-height: 500px;
+    height: 500px;
     padding: 10px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1199px)
+{
+    .blog-custom-image img
+    {
+        width: 50%;
+        height: 300px;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .blog-custom-image {
+      margin-bottom: 40px;
+    }
 }
 
 
@@ -887,6 +909,18 @@ textarea
     .header
     {
         height: 80px;
+    }
+
+    .blog-custom-image img
+    {
+        width: 50%;
+        height: 250px;
+        padding: 10px;
+        object-fit: cover;
+    }
+
+    .blog-custom-image {
+      margin-bottom: 30px;
     }
 }
 
@@ -1700,6 +1734,9 @@ textarea
 .blog-banner img
 {
     min-height: 220px;
+    max-height: 560px;
+    width: 100%!important;
+    object-fit: cover;
 }
 
 [data-object-fit='true']
@@ -2235,8 +2272,8 @@ textarea
 
 .question-logo
 {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: #fff;
     border-radius: 50%;
     overflow: hidden;
@@ -2249,7 +2286,7 @@ textarea
     -webkit-box-pack: center;
     -ms-flex-pack: center;
             justify-content: center;
-    margin: -40px auto;
+    margin: -32px auto -70px;
 }
 
 /* overlay at start */
@@ -2381,7 +2418,7 @@ textarea
 .question-logo img
 {
     padding: 0 5px;
-
+    max-width: 50px;
     background-color: #fff;
 }
 
@@ -2487,6 +2524,7 @@ textarea
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .press-list__item {
@@ -2531,8 +2569,48 @@ textarea
   color: #000000;
 }
 
-.press-list__content a {
+@media screen and (max-width: 1199px) {
+  .press-list__content h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 
+  .press-list__content p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .press-list__content a {
+    font-size: 18px;
+  }
+
+  .press-list__thumb {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .press-list__content h3 {
+    font-size: 30px;
+  }
+
+  .press-list__content p {
+    font-size: 16px;
+  }
+
+  .press-list__content a {
+    font-size: 16px;
+  }
+
+  .press-list__thumb {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .press-list__item {
+    width: 100%;
+  }
 }
 
 .lds-roller
@@ -2950,6 +3028,10 @@ textarea
     {
         max-width: 100%;
     }
+
+    .snow-box__body {
+      padding-bottom: 15px;
+    }
 }
 
 @media (max-width: 988px)
@@ -3235,8 +3317,13 @@ textarea
     }
     .top-text
     {
-        right: 0;
+        right: auto;
         left: auto;
+        position: relative;
+        margin-top: -100px;
+        width: 90%!important;
+        margin-left: auto;
+        margin-right: auto;
     }
     .hand-crafted
     {
