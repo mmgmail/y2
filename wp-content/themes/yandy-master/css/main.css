@@ -1629,6 +1629,11 @@ textarea
     display: inline-block;
 }
 
+.bringing {
+  position: relative;
+  z-index: 3;
+}
+
 .bringing-text
 {
     padding-left: 70px;
@@ -2471,6 +2476,10 @@ textarea
 .spirit-product__content.content-order
 {
     padding-right: 50px;
+}
+
+.spirit-product__thumb {
+  max-width: 50%;
 }
 
 .spirit-product__thumb img

@@ -146,7 +146,7 @@
 					<div class="col-12 col-lg-6 room-text">
 						<h2 class="top-h1-2">OUR SPACE<span>Tasting Room & Event Space</span></h2>
 						<div class="top-p">Our light and airy space provides the perfect relaxed-yet-sophisticated setting to enjoy an elevated imbibing experience. Stop by for a coctail, enjoy a tasting filght or book an event with us. We can accommodate groups of up to 85.</div>
-						<a href="blog2.html" class="top-btn"><u>Learn More</u></a>
+						<a href="" class="top-btn"><u>Learn More</u></a>
 						<div class="tony-text">
 							<p>“I had an amazing time at Y&Y.  The staff were amazing, and they catered to our group with grace, style, and booooze”</p>
 							<b>-Toni T</b>
@@ -179,7 +179,7 @@
 					<h2 class="top-h1-2">OUR MISSON<span>It’s about bringing people together.</span></h2>
 					<div class="top-p">Launched in March of 2017 after almost three years of planning, You & Yours Distilling Co. is a full production distillety, tasting room and event space, comlete with a world-class coctail program highlighting our current spirits offerings.</div>
 					<div class="top-p">Salvaged wood, whitewashed brick, exposed concrete, push velvet, denim linen, copper and marble accents come together to create a fresh, unique and insta-worthy atmosphare.</div>
-					<a href="<?php the_field('book-event'); ?>" class="top-btn" target="_blank"><u>Book Event</u></a>
+					<a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
 				</div>
 				<div class="col-12 col-xl-6 bringing-photo">
 					<img data-object-fit="true" src="<?php echo get_template_directory_uri();?>/img/br1.png" alt="photo">

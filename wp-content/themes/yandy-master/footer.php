@@ -12,7 +12,7 @@
 ?>
 
 
-<footer class="footer1">
+<footer id="contacts" class="footer1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-xl-push-6 contact-text">

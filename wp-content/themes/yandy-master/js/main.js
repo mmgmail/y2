@@ -5,7 +5,7 @@ $(document).ready(function() {
         items: {
           src: '<section class="question-block">'+
             '<div class="in-block">'+
-              '<div class="question-logo"><img src="http://localhost:8888/y2/wp-content/uploads/2018/08/logo.png" alt="logo"></div>'+
+              '<div class="question-logo"><img src="http://blog.youandyours.com/wp-content/uploads/2018/08/logo.png" alt="logo"></div>'+
               '<div class="question">Quick Question.<br>  Are you over the<br> age of 21?</div>'+
               '<div style="margin:0 auto; width:205px;">'+
                 '<div class="yes js-popap-close"><span>Yes!</span></div>'+
