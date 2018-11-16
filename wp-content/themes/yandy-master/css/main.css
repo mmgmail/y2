@@ -249,6 +249,10 @@ textarea
     color: #000;
 }
 
+b {
+  font-weight: bold;
+}
+
 #menu-menu-1,
 #menu-menu-3
 {
@@ -280,6 +284,10 @@ textarea
     color: #000;
 }
 
+.p-top-divede-top {
+  margin-top: 20px;
+}
+
 @media (min-width: 770px) {
   #menu-menu-1 {
     display: none;
@@ -294,6 +302,10 @@ textarea
         line-height: 1.4;
 
         margin-bottom: 10px;
+    }
+
+    .p-top-divede-top {
+      margin-top: 10px;
     }
 }
 
