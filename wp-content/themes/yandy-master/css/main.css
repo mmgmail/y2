@@ -2569,6 +2569,24 @@ b {
   padding: 50px 70px;
 }
 
+.events-room-form .home-form .book-event-submit {
+  height: 75px;
+  border: 4px solid #fff;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+.events-products-wrap .spirit-product {
+  align-items: flex-start;
+}
+
+.events-products-wrap .thumb-order img {
+  max-height: 600px;
+}
+
 @media (min-width: 1200px) {
   .events-products-wrap .top-h1-2 span,
   .bringing.events-bringing-wrap .top-h1-2 span,
@@ -2579,6 +2597,15 @@ b {
 
   .room.events-room-wrap {
     margin-bottom: 100px;
+  }
+
+  .room.events-room-wrap .tony-text p {
+    margin-top: 35px;
+    font-size: 35px;
+  }
+
+  .room.events-room-wrap .tony-text {
+    margin-top: 0;
   }
 }
 

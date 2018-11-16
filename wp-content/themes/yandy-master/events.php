@@ -62,7 +62,6 @@ get_header();
 					<div class="col-12 col-lg-6 room-text">
 						<h2 class="top-h1-2"><span>Book Your Next Event With Y&Y</span></h2>
 						<div class="top-p">Drop us and let’s partner together to make your perfect event happen!  We Tailor every event to your needs and your budget!  Hope to talk to talk to you soon!</div>
-						<a href="" class="top-btn"><u>Learn More</u></a>
 						<div class="tony-text">
 							<p>“I had an amazing time at Y&Y.  The staff were amazing, and they catered to our group with grace, style, and booooze”</p>
 							<b>-Toni T</b>
