@@ -34,7 +34,7 @@
 					<div class="carousel-inner sl1 single-item">
 						<?php
 						if ( have_posts() ) : // если имеются записи в блоге.
-						   query_posts( array('posts_per_page' => '4',  ));    // указываем ID рубрик, которые необходимо вывести.
+						   query_posts( array('posts_per_page' => '5', 'category_name' => 'slider'));    // указываем ID рубрик, которые необходимо вывести.
 						  while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
 						?>
 

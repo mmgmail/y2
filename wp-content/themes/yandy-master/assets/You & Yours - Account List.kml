@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="icon-1517-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1517-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1517-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1517-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1517-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1684-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1684-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1684-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1684-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1684-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Loews Coronado Bay Resort</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1345891,32.6317263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Costco Wholesale</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1254078,33.1358343,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Andaz San Diego</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1589196,32.7138671,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barons Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.222286,32.753444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hundred Proof</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1467,32.7531109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cardiff Seaside Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2819844,33.0220067,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Valley Farm Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0019418,32.7517609,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Herb & Wood]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1710073,32.7273262,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Juniper & Ivy]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1712014,32.7274985,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Chingon</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.160413,32.7111779,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KINDRED</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1300586,32.7214492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prado</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1495474,32.7311055,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>University Club Atop Symphony Towers</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1577807,32.7179201,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Panama 66</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1504179,32.732119,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kettner Exchange</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1697595,32.7253645,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keg N Bottle</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.067697,32.761367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bivouac Ciderworks</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.130405,32.750051,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Jensen's Foods]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.245415,32.721635,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Polite Provisions</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1303853,32.7627472,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Bottle House</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1297976,32.7268626,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Small Bar</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1465006,32.7615326,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Half Door Brewing Co.</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1562712,32.7102646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wine Bank</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1599783,32.7092311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Queenstown Public House</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1671879,32.7217895,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lazy Acres</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1677706,32.7504744,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[High Tide Bottle Shop & Kitchen]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1791704,32.6866176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms La Jolla</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.215113,32.86753,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manchester Grand Hyatt San Diego</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1678339,32.709746,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Harbor Town Pub</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.231574,32.721657,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Solare</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2139792,32.7373662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vin de Syrah</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1599268,32.7148379,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Dorado Cocktail Lounge</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1550675,32.7158806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Mister A's]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1606582,32.7319608,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Central Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.173282,32.6975441,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Hills Local Pub</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0089026,32.7705909,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Loma Club</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2105985,32.742058,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Raised by Wolves</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2128706,32.8721475,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Not Not Tacos</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1680369,32.7232672,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keg N Bottle - Sorrento Valley</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.202938,32.8937563,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Holiday Wine Cellar</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0898743,33.1293561,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Waterfront Bar & Grill]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1702371,32.7256509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[George's at the Cove]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2719311,32.8493995,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Park Boulevard Deli</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.146477,32.759292,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KnB Bistro - Del Cerro</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0600705,32.7838916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>THE US GRANT, a Luxury Collection Hotel, San Diego</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1615268,32.7161492,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Flagship Cruises & Events]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1733382,32.7151808,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Humphreys Restaurant</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2242818,32.7162658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quality Liquor Store</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.139486,32.760977,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amplified Ale Works Kitchen + Beer Garden</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1517051,32.7102832,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bottlecraft Liberty Station</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2109692,32.7402365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madison</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1464565,32.7614508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keg N Bottle</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2724342,32.8427287,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SEA180</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.13222,32.5813085,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Bub's At The Ballpark]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1579703,32.7091113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Saiko Sushi</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.172757,32.698491,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>counterpoint</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1404626,32.7143806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sidecar Bar</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2023114,32.7719495,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lazy Acres</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2889289,33.0499423,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Death by Tequila</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2934592,33.0451431,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>619 Spirits North Park</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1297898,32.750151,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Liquor and Wine</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.179351,32.687657,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Old Town Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1921685,32.7496899,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keg N Bottle</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0930562,32.6647243,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Double Standard Kitchenetta</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1590383,32.7124312,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Texas Wine & Spirits]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.343887,33.1621199,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jsix</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.158933,32.709547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Ironside Fish & Oyster]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1685879,32.7226909,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Handy Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1300495,32.7627696,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>VOM FASS San Diego</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1546323,32.7496125,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Lodge at Torrey Pines</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2446377,32.9041508,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sushi Lounge on Market</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1607843,32.7112746,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Major Market Inc</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0754548,33.1010196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Sand 'n' Sea]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.22853,32.72586,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Texas Food & Liquor]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1390144,32.7575523,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Soda & Swine Liberty Station]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2118077,32.7376137,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Falcon Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1706525,32.7496577,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ATM Machine at Leucadia Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3011224,33.0608097,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Werewolf</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.16075,32.71194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HOPE 46 Classic American Cuisine</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1406848,32.7548278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[La Mesa Wine & Spirits]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0191335,32.7650465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Farms Golf Club</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.177722,32.988311,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Cloak & Petal]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1686075,32.7251877,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krisp Beverages + Natural Foods</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1586447,32.7161927,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[The Lion's Share]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1689827,32.7119681,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pendry San Diego</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1598837,32.709583,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pearl Hotel</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2289268,32.7252086,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trust</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1465302,32.7465728,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>One Door North</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1303721,32.7415478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quartyard</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.152622,32.711373,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maretalia Ristorante</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1788749,32.6828008,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Cowboy Star Restaurant & Butcher Shop]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.155866,32.712144,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>76</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1632165,33.1360079,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Park & Rec]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1466219,32.761383,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Park Place Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1805627,32.6851843,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Slater's 50/50]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2123545,32.7382162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Boulevard Wine and Spirits</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.103735,32.7548654,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Estancia La Jolla Hotel & Spa]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2445404,32.8842343,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fairmont Grand Del Mar</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.19746,32.940043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bagby Beer Co.</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.374349,33.189368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Banzai Bar</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2069196,32.7504399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue Point</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1599406,32.7113731,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mission Hills Wine Cellar</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1782978,32.7519394,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[La Shore Market & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2697824,32.8136191,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coaster Saloon</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2518496,32.7722154,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coin-Op Game Room</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1589615,32.7132427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coin-Op Game Room</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.130506,32.749061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mona Lisa Italian Foods</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1690746,32.7262337,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Underbelly</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1693186,32.7243313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Rancho Valencia Resort & Spa]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1861363,32.9909591,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Wag's LIQUOR Store]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.361616,33.174126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Mullens Market & Liquor]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1292314,32.7062331,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Draft Republic Carlsbad</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3243232,33.12459,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Tom Ham's Lighthouse]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2132062,32.7241549,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>URBN North Park</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1273912,32.7483445,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sycamore Den</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1208997,32.763234,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Knotty Barrel</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.156693,32.7116635,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ace Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2514984,32.7655537,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santee Discount Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -116.9484187,32.8526071,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Local Tap House</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.376506,33.192741,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[McGregor's Grill]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1110474,32.7844414,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Campfire</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3510571,33.1620178,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>South Bay Liquor Store</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0775552,32.6026323,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pacific Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1307322,32.7551047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Krisp Beverages + Natural Foods</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1399282,32.7166088,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waypoint Public</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.130291,32.747198,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brooklyn Girl</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1712155,32.7505344,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Two Seven Eight</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1602037,32.7448594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mission Ave Bar and Grill</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3775379,33.1969015,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Slater's 50/50]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1758386,33.1385703,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Apple Tree Supermarket</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2504849,32.7467171,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[OB Quik Stop Liquor & OB Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.246056,32.7521014,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Mother's Saloon]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2463621,32.7525816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bar One</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1685219,32.7215165,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Top Shelf Wine and Spirits</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1201244,33.132468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Liticker's Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.245998,32.751444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>32 North Brewing Co.</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.164818,32.882678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Lena's Liquor]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0688411,33.1324341,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dirty Birds Liberty Station</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2103557,32.7423996,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Whiskey House</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1622499,32.709722,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[The Land & Water Company]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.350884,33.1587846,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>farr better wine and spirits</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2625974,33.0556882,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Rail</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1607394,32.7468303,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Roxy Encinitas</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.293567,33.045728,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[The 3rd Corner Wine Shop & Bistro]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2457176,32.7528261,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wonderland Ocean Pub</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2519807,32.748384,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Smoking Gun SD</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1594938,32.7112422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BO-beau kitchen + cache</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1546296,32.7481275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Royale</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2347864,32.74403,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Bitters & Bottles]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.40954,37.655162,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms Inc</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2583608,33.8181274,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Epicurean Trader</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.41764,37.739329,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Epicurean</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4308966,37.797803,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Third Base Market & Spirits - PR]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -120.6919538,35.6293601,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Mission Wine & Spirits]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.1136774,34.1693077,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Oil Patch Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.1592416,33.8046755,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2815818,37.5596894,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Bar & Garden]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3788664,34.0308593,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3539667,33.8678247,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3185 College Ave</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2523167,37.8515176,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bar Keeper</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2800174,34.0917651,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.882211,33.912111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Boneyard Cocina & Cantina]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4380477,34.1494083,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.135523,34.1463299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.8740508,34.1828419,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.8744932,37.698251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.9689411,37.7778552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms Santa Monica</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.472904,34.040353,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.8746259,37.2576727,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4667002,37.6678484,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.5548744,34.2344735,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.389011,34.07759,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.7103469,33.6141074,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.9750019,37.50306,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -116.404519,33.728191,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1510128,33.5298117,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.0866793,33.8270654,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.5362813,34.1044998,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.795975,33.721814,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.6049992,34.1833553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.988536,33.72678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.0960016,37.4203365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.385659,33.90072,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms Newport Beach</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.8734883,33.6063777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Total Wine & More]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.0581323,37.9352073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chicos Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.415825,37.7920337,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REPUBLIC</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2681168,34.4924251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Wine Impression</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4510344,37.7864371,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Holy Water</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4182559,37.739413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Devilicious Eatery & Tap Room]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.147661,33.4923619,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms Westchester</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.419472,33.961215,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cask</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4029916,37.7872723,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eagle Rock Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2166444,34.1311667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Crush & Brew]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1501078,33.4946307,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Larchmont Village Wine, Spirits & Cheese]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3239504,34.0753175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Northbrae Bottle Shop</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2814057,37.8818116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bristol Farms South Pasadena</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.149828,34.11843,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ramirez Beverage Center</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.218102,34.023848,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ronan</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3492225,34.0837018,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>York Square Liquors</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.1822406,34.1144981,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shade Hotel</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4086754,33.886846,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Iron Press</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.911933,33.8315149,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Baycrest Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.9146936,33.6317175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Strand House</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.411365,33.884771,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brewco</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4110587,33.8844674,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shade Hotel</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3951727,33.8474751,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Foothill</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.0917613,34.1501623,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Rock'N Fish Restaurant]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4111316,33.8844362,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BO-beau kitchen + roof tap</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.1923074,33.768977,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Rock'N Fish Restaurant]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2654804,34.0445166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Booze & brews]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.338776,34.1849674,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Jug Shop</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.421462,37.795401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Whitechapel</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.4188759,37.7823999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aro Latin</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.156395,34.1156294,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Vespaio</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2509096,34.0539694,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Big Spirits</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.273274,34.0825956,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Last Rites</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.429452,37.767924,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[The Cure Kitchen & Bar]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.9905221,33.7151059,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[The Yodeler Craft Beer Bar & Grill]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.633834,34.360395,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Liquor Warehouse</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.969427,33.6712355,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[CRAFT Beer & Wine]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2390907,37.7637578,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[38 Degrees Ale House & Grill]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.0002918,34.1456807,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Jay's Bar]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2830051,34.0952298,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Bottle Shoppe</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4385261,34.2996793,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Social List</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.166479,33.77192,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Metro Lafayette</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.1175708,37.8924924,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>East End</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -122.2394819,37.7679455,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Redbird</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2440417,34.0504834,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barcode</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.940742,33.774982,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gold Diggers</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.3125647,34.0905773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ashur Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.106394,32.5831183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tavern+Bowl East Village</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.155942,32.711794,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hub Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2524305,32.7838089,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Pappy's Market]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3844039,33.1984799,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bubbles By The Beach</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3814431,33.1957412,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mar Vista Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2820787,33.0208443,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Belvedere Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -116.964825,32.839447,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Heidi's Liquor & Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2559393,32.809478,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SandBox Pizza</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2510142,32.7959415,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Clem's Bottle House]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.107189,32.763437,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jug Liquor Store</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2539774,32.8055398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -116.9593624,32.8178819,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mart Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0100783,32.7696317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>King Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -116.933214,32.8212789,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Scripps Ranch Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.112323,32.916428,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Village Wine & Spirits]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2556083,33.046034,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Florentine's Grill]]></name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.9241475,33.8705238,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Everson Royce Bar</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2325867,34.0343882,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palace Liquor Depot</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.2262816,34.1890599,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Fatboy's]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1287968,32.7486227,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lola 55</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1530201,32.7137686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Summer's Liquor]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1464279,32.7610871,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Del Mar Wine Company</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2461192,32.9504221,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Criscola's Liquor Store]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.255643,32.7983595,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>333 Pacific</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3835845,33.195061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Patio on Lamont</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2347654,32.7998571,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pillbox Tavern</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2720981,32.9913352,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Keg N Bottle</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.039866,32.724825,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chips Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2347816,32.8013482,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Howell's Liquor]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.0495452,32.7117039,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Diego Civic Theatre</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1624216,32.717426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Servall Liquor (Craft City)</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1517512,32.74818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Neighborhood</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.157584,32.712406,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Royal Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.305631,33.07365,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Mesa Liquor & Wine Co. - Knockout Deli]]></name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.152834,32.830669,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jaroco Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.14047,32.717752,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Clara</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.3505413,33.1592773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rushing Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2297652,32.7412264,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gossip Grill</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1530425,32.7488029,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Abc Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.241392,32.748594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punch Bowl San Diego</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1508498,32.7144002,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cottage Drive-In Liquor</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.146407,32.745927,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Voltaire Beach House</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.2451751,32.751505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barons Market</name>
+      <styleUrl>#icon-1684-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -117.1023,33.5142979,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Chestnut Club</name>
+      <styleUrl>#icon-1517-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -118.4860656,34.0242154,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

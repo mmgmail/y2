@@ -202,7 +202,6 @@ body
     font-family: 'Gotham';
     font-size: 20px;
     font-weight: 300;
-
     color: #000;
 }
 
@@ -292,6 +291,10 @@ b {
   #menu-menu-1 {
     display: none;
   }
+
+  .p-top-divede-top {
+    margin-top: 35px;
+  }
 }
 
 @media screen and (max-width: 1200px)
@@ -305,7 +308,12 @@ b {
     }
 
     .p-top-divede-top {
-      margin-top: 10px;
+      margin-top: 20px;
+    }
+
+    .events-room-wrap .form-style div input, .events-room-wrap .form-style div textarea {
+      font-size: 16px!important;
+      color: #000;
     }
 }
 
@@ -2587,6 +2595,15 @@ b {
   max-height: 600px;
 }
 
+.events-room-wrap .form-style div input, .events-room-wrap .form-style div textarea {
+  font-size: 26px;
+  color: #000
+}
+
+.events-bringing-wrap .bringing-text {
+  padding-left: 0;
+}
+
 @media (min-width: 1200px) {
   .events-products-wrap .top-h1-2 span,
   .bringing.events-bringing-wrap .top-h1-2 span,
@@ -2743,7 +2760,34 @@ b {
   }
 
   .events-products-wrap .spirit-product {
+    margin-bottom: 60px;
+  }
+
+  .events-products-wrap {
+    margin: 40px auto;
+  }
+
+  .events-products-wrap .spirit-product__thumb {
+    max-width: 100%;
+  }
+
+  .events-products-wrap .spirit-product__thumb img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .events-room-form .home-form {
+    padding: 15px 15px;
+  }
+
+  .room.events-room-wrap .room-text {
+    padding-right: 0;
     margin-bottom: 30px;
+  }
+
+  .blog-header .container {
+    padding: 0;
   }
 }
 

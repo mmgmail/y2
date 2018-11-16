@@ -6,22 +6,16 @@ Template Post Type: post, page, product
 
 get_header();
 ?>
-  <section class="blog-banner container">
-<?php
-
-  $prev = get_field('image_previe');
-  $images = get_field('image_desc2');
-  $image = get_field('image_desc');
-  $imageb1 = get_field('image_desc_bottom1');
-  $imageb2 = get_field('image_desc_bottom2');
-  $imageb3 = get_field('image_desc_bottom3');
-  $imageb4 = get_field('image_desc_bottom4');
-  $imageb5 = get_field('image_desc_bottom5');
-
-?>
-
-
-           <img data-object-fit="true" src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
+  <section class="map-banner clearfix">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1GqllO9aogl1gmHKE7UluVOYwGN3jzc7O&libraries=places" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="600"></iframe>
+    <!-- <div class="bh-sl-container">
+      <div id="bh-sl-map-container" class="bh-sl-map-container">
+        <div id="bh-sl-map" class="bh-sl-map"></div>
+        <div class="bh-sl-loc-list">
+          <ul class="list"></ul>
+        </div>
+      </div>
+    </div> -->
   </section>
 
 <div class="about-blog-body">
@@ -56,29 +50,35 @@ get_header();
       </div>
     </section>
 
-    <section class="blog-info">
-        <div class="container">
-
-          <div class="about-blog-images">
-            <span class="about-image-item">
-              <img src="<?php echo $imageb1['url']; ?>" alt="<?php echo $imageb1['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb2['url']; ?>" alt="<?php echo $imageb2['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb3['url']; ?>" alt="<?php echo $imageb3['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb4['url']; ?>" alt="<?php echo $imageb4['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb5['url']; ?>" alt="<?php echo $imageb5['alt']; ?>">
-            </span>
+    <section>
+      <div class="spirit-products-wrap events-products-wrap clearfix container">
+        <div class="spirit-product">
+          <div class="spirit-product__thumb">
+            <img src="<?php echo get_template_directory_uri();?>/img/events1.png" alt="photo">
           </div>
-
+          <div class="spirit-product__content">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span>Tours & Cocktail Classes</span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p><b>Private Tour & Tasting.</b> A 45-minute educational experience finished with a guided tasting of our current offerings.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+            <div class="spirit-product__descr blog-text"><p><b>Private Cocktail Class.</b> Learn how to mix up drinks like the pros with this hour long, hands-on introduction to cocktail basics. Attendees will learn how to measure, shake, stir and pour drinks. Each attendee will have the opportunity to make and enjoy two cocktails, all while learning a brief history of the drinks being made. Taught by our very own staff. Tools and ingredients will be provided. Available to groups of 8-12 guests. Attendees must be 21 years of age.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+          </div>
         </div>
-      </div>
+
+        <div class="spirit-product">
+          <div class="spirit-product__content content-order">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span>Tours & Cocktail Classes</span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p>Reserve our bright, airy space and talented bar team exclusively for you & your guests. Our venue is perfect for bridal and baby showers, bachelorette parties, intimate wedding receptions, and company parties. We can even create custom experiences and drinks for your special event! Click below to inquire for package & pricing details.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+          </div>
+          <div class="spirit-product__thumb thumb-order">
+            <img src="<?php echo get_template_directory_uri();?>/img/events2.png" alt="photo">
+          </div>
+        </div>
     </section>
 </div>
 

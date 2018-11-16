@@ -9,19 +9,10 @@ get_header();
   <section class="blog-banner container">
 <?php
 
-  $prev = get_field('image_previe');
-  $images = get_field('image_desc2');
-  $image = get_field('image_desc');
-  $imageb1 = get_field('image_desc_bottom1');
-  $imageb2 = get_field('image_desc_bottom2');
-  $imageb3 = get_field('image_desc_bottom3');
-  $imageb4 = get_field('image_desc_bottom4');
-  $imageb5 = get_field('image_desc_bottom5');
+  $prev = get_field('image_preview');
 
 ?>
-
-
-           <img data-object-fit="true" src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
+  <img data-object-fit="true" src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
   </section>
 
 <div class="about-blog-body">

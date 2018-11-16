@@ -10,13 +10,6 @@ get_header();
 <?php
 
   $prev = get_field('image_preview');
-  $images = get_field('image_desc2');
-  $image = get_field('image_desc');
-  $imageb1 = get_field('image_desc_bottom1');
-  $imageb2 = get_field('image_desc_bottom2');
-  $imageb3 = get_field('image_desc_bottom3');
-  $imageb4 = get_field('image_desc_bottom4');
-  $imageb5 = get_field('image_desc_bottom5');
 
 ?>
 
@@ -77,10 +70,10 @@ get_header();
   								<input type="email" name="email" placeholder="Email" required>
   							</div>
   							<div class="col-md-6">
-  								<input type="text" name="title" placeholder="What This About" required>
-  							</div>
-  							<div class="col-md-6">
   								<input type="tel" name="phone" placeholder="Phone Number">
+  							</div>
+                <div class="col-md-6">
+  								<input type="text" name="title" placeholder="Event Size (Estimate)" required>
   							</div>
   							<div class="col-xl-12">
   								<textarea name="message"  placeholder="Message or Questions" required></textarea>
@@ -121,7 +114,7 @@ get_header();
   	</section>
 
     <section>
-      <div class="spirit-products-wrap events-products-wrap clearfix">
+      <div class="spirit-products-wrap events-products-wrap clearfix container">
         <div class="spirit-product">
           <div class="spirit-product__thumb">
             <img src="<?php echo get_template_directory_uri();?>/img/events1.png" alt="photo">
@@ -149,32 +142,8 @@ get_header();
             <img src="<?php echo get_template_directory_uri();?>/img/events2.png" alt="photo">
           </div>
         </div>
-    </section>
-
-    <!-- <section class="blog-info">
-        <div class="container">
-
-          <div class="about-blog-images">
-            <span class="about-image-item">
-              <img src="<?php echo $imageb1['url']; ?>" alt="<?php echo $imageb1['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb2['url']; ?>" alt="<?php echo $imageb2['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb3['url']; ?>" alt="<?php echo $imageb3['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb4['url']; ?>" alt="<?php echo $imageb4['alt']; ?>">
-            </span>
-            <span class="about-image-item">
-              <img src="<?php echo $imageb5['url']; ?>" alt="<?php echo $imageb5['alt']; ?>">
-            </span>
-          </div>
-
-        </div>
       </div>
-    </section> -->
+    </section>
 </div>
 
 <?php  include 'recent-blog.php' ?>

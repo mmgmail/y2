@@ -34,6 +34,27 @@ $(document).ready(function() {
   $('.fixed-today-bar button').click(function() {
     $(this).parent().fadeOut();
   });
+
+  // if('#bh-sl-map-container'){
+  //   $('#bh-sl-map-container').storeLocator({
+  //     dataType: 'kml',
+  //     KMLinfowindowTemplatePath: 'http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/plugins/storeLocator/templates/kml-infowindow-description.html',
+  //     KMLlistTemplatePath: 'http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/plugins/storeLocator/templates/kml-location-list-description.html',
+  //     listTemplatePath: 'http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/plugins/storeLocator/templates/location-list-description.html',
+  //     infowindowTemplatePath: 'http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/plugins/storeLocator/templates/infowindow-description.html',
+  //     dataLocation: 'http://localhost:8888/y2/wp-content/themes/yandy-master/assets/You & Yours - Account List.kml',
+  //     defaultLat: '9.638590',
+  //     defaultLng: '13.533450',
+  //     defaultLoc: true,
+  //     distanceAlert: -1,
+  //     'querystringParams' : true,
+  //     pagination: true,
+  //     noForm: true,
+  //     fullMapStart: true,
+  //     fullMapStartListLimit: true
+  //
+  //   });
+  // }
 })
 
 

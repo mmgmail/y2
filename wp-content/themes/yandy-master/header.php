@@ -35,7 +35,11 @@
 			============================================= -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600" rel="stylesheet">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9wW6PnbQ9m-zwooBwfCaagS0vQcjjeOo&libraries=places&sensor=false"></script>
  <?php wp_head(); ?>
+
+ <!-- <script type="text/javascript" scr="http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/libs/handlebars.min.js"></script>
+ <script type="text/javascript" scr="http://localhost:8888/y2/wp-content/themes/yandy-master/assets/js/plugins/storeLocator/jquery.storelocator.js"></script> -->
 </head>
 
 <body <?php body_class(); ?>>
