@@ -2552,10 +2552,33 @@ b {
   margin-bottom: 100px;
 }
 
+.room.events-room-wrap {
+  margin-bottom: 30px;
+}
+
+.room.events-room-wrap .room-text {
+    padding-left: 0px;
+    padding-right: 70px;
+}
+
+.events-room-form {
+  background-color: #bfefe5;
+}
+
+.events-room-form .home-form {
+  padding: 50px 70px;
+}
+
 @media (min-width: 1200px) {
-  .events-products-wrap .top-h1-2 span, .bringing.events-bringing-wrap .top-h1-2 span{
+  .events-products-wrap .top-h1-2 span,
+  .bringing.events-bringing-wrap .top-h1-2 span,
+  .room.events-room-wrap .top-h1-2 span {
     font-weight: bold;
     font-size: 80px;
+  }
+
+  .room.events-room-wrap {
+    margin-bottom: 100px;
   }
 }
 

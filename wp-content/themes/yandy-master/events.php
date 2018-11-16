@@ -56,6 +56,49 @@ get_header();
       </div>
     </section>
 
+    <section class="room events-room-wrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6 room-text">
+						<h2 class="top-h1-2"><span>Book Your Next Event With Y&Y</span></h2>
+						<div class="top-p">Drop us and let’s partner together to make your perfect event happen!  We Tailor every event to your needs and your budget!  Hope to talk to talk to you soon!</div>
+						<a href="" class="top-btn"><u>Learn More</u></a>
+						<div class="tony-text">
+							<p>“I had an amazing time at Y&Y.  The staff were amazing, and they catered to our group with grace, style, and booooze”</p>
+							<b>-Toni T</b>
+						</div>
+					</div>
+          <div class="col-12 col-lg-6 events-room-form">
+            <form action="" method="post" class="home-form" name="contactForm" id="contactForm">
+  						<div class="form-style row">
+  							<div class="col-md-6">
+  								<input type="text" name="name" placeholder="Full Name" required>
+  							</div>
+  							<div class="col-md-6">
+  								<input type="email" name="email" placeholder="Email" required>
+  							</div>
+  							<div class="col-md-6">
+  								<input type="text" name="title" placeholder="What This About" required>
+  							</div>
+  							<div class="col-md-6">
+  								<input type="tel" name="phone" placeholder="Phone Number">
+  							</div>
+  							<div class="col-xl-12">
+  								<textarea name="message"  placeholder="Message or Questions" required></textarea>
+  							</div>
+  						</div>
+  						<button type="submit" class="book-event-submit" id="bookEvent">
+  							<span class="book-event-submit__text">Submit</span>
+  							<span class="lds-rolle-wrap">
+  								<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  							</span>
+  						</button>
+  					</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
     <section class="bringing events-bringing-wrap">
   		<div class="container">
   			<div class="row">
