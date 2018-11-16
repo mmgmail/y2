@@ -56,7 +56,7 @@ get_header();
       </div>
     </section>
 
-    <section class="bringing">
+    <section class="bringing events-bringing-wrap">
   		<div class="container">
   			<div class="row">
   				<div class="col-12 col-xl-6 bringing-text ">
@@ -78,6 +78,36 @@ get_header();
   		</div>
   	</section>
 
+    <section>
+      <div class="spirit-products-wrap events-products-wrap clearfix">
+        <div class="spirit-product">
+          <div class="spirit-product__thumb">
+            <img src="<?php echo get_template_directory_uri();?>/img/events1.png" alt="photo">
+          </div>
+          <div class="spirit-product__content">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span>Tours & Cocktail Classes</span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p><b>Private Tour & Tasting.</b> A 45-minute educational experience finished with a guided tasting of our current offerings.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+            <div class="spirit-product__descr blog-text"><p><b>Private Cocktail Class.</b> Learn how to mix up drinks like the pros with this hour long, hands-on introduction to cocktail basics. Attendees will learn how to measure, shake, stir and pour drinks. Each attendee will have the opportunity to make and enjoy two cocktails, all while learning a brief history of the drinks being made. Taught by our very own staff. Tools and ingredients will be provided. Available to groups of 8-12 guests. Attendees must be 21 years of age.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+          </div>
+        </div>
+
+        <div class="spirit-product">
+          <div class="spirit-product__content content-order">
+            <h2 class="spirit-product__title top-h1-2 subtitle-h1">
+              <span>Tours & Cocktail Classes</span>
+            </h2>
+            <div class="spirit-product__descr blog-text"><p>Reserve our bright, airy space and talented bar team exclusively for you & your guests. Our venue is perfect for bridal and baby showers, bachelorette parties, intimate wedding receptions, and company parties. We can even create custom experiences and drinks for your special event! Click below to inquire for package & pricing details.</p></div>
+            <a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+          </div>
+          <div class="spirit-product__thumb thumb-order">
+            <img src="<?php echo get_template_directory_uri();?>/img/events2.png" alt="photo">
+          </div>
+        </div>
+    </section>
 
     <!-- <section class="blog-info">
         <div class="container">

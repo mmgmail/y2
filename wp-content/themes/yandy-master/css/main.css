@@ -2544,6 +2544,21 @@ b {
     content: '•';
 }
 
+.events-products-wrap .spirit-product__content {
+    max-width: 660px;
+}
+
+.events-products-wrap .spirit-product {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+  .events-products-wrap .top-h1-2 span, .bringing.events-bringing-wrap .top-h1-2 span{
+    font-weight: bold;
+    font-size: 80px;
+  }
+}
+
 .press-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2675,6 +2690,10 @@ b {
 @media screen and (max-width: 767px) {
   .press-list__item {
     width: 100%;
+  }
+
+  .events-products-wrap .spirit-product {
+    margin-bottom: 30px;
   }
 }
 
