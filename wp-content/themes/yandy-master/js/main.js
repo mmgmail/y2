@@ -82,7 +82,7 @@ $(document).ready(function() {
 	//
 
 	$('.js-menu-popup').magnificPopup({
-  	type: 'image',
+  	type: 'iframe',
 		tLoading: 'Loading image...',
     mainClass: 'mfp-fade',
 		image: {

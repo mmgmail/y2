@@ -10,6 +10,7 @@
 	<?php
 
 		$menu = get_field('menu');
+		$book = get_field('book-event');
 
 	?>
 
@@ -201,7 +202,7 @@
 					<h2 class="top-h1-2">OUR MISSON<span>It’s about bringing people together.</span></h2>
 					<div class="top-p">Launched in March of 2017 after almost three years of planning, You & Yours Distilling Co. is a full production distillety, tasting room and event space, comlete with a world-class coctail program highlighting our current spirits offerings.</div>
 					<div class="top-p">Salvaged wood, whitewashed brick, exposed concrete, push velvet, denim linen, copper and marble accents come together to create a fresh, unique and insta-worthy atmosphare.</div>
-					<a href="https://youandyours.youcanbook.me/" class="top-btn" target="_blank"><u>Book Event</u></a>
+					<a href="<?php echo $book; ?>" class="top-btn" target="_blank"><u>Book Event</u></a>
 				</div>
 				<div class="col-12 col-xl-6 bringing-photo">
 					<img data-object-fit="true" src="<?php echo get_template_directory_uri();?>/img/br1.png" alt="photo">

@@ -2592,6 +2592,37 @@ a {
   margin: auto;
 }
 
+img.mfp-img {
+  max-height: none!important;
+}
+
+.mfp-iframe-holder .mfp-content {
+  max-width: 75%;
+}
+
+@media screen and (max-width: 1700px) {
+  .mfp-iframe-holder .mfp-content {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mfp-iframe-holder .mfp-content {
+    max-width: 95%;
+  }
+
+  .mfp-iframe-scaler {
+    padding-top: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .mfp-iframe-scaler {
+    padding-top: 150%;
+  }
+}
+
 .events-products-wrap .spirit-product {
   -webkit-box-align: start;
       -ms-flex-align: start;
