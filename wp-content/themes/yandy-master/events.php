@@ -12,9 +12,7 @@ get_header();
   $prev = get_field('image_preview');
 
 ?>
-
-
-           <img data-object-fit="true" src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
+    <img data-object-fit="true" src="<?php echo $prev['url']; ?>" alt="<?php echo $prev['alt']; ?>"  class="img-fluid">
   </section>
 
 <div class="about-blog-body">

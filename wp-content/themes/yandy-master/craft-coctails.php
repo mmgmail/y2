@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Blog
+Template Name: Craft Coctails
 Template Post Type: post, page, product
 */
 
@@ -50,7 +50,7 @@ if ( have_posts() ) : // если имеются записи в блоге.
     <div class="press-list">
       <?php
       if ( have_posts() ) : // если имеются записи в блоге.
-         query_posts( array('category_name' => 'press'));    // указываем ID рубрик, которые необходимо вывести.
+         query_posts( array('category_name' => 'cocktails'));    // указываем ID рубрик, которые необходимо вывести.
         while (have_posts()) : the_post();  // запускаем цикл обхода материалов блога
       ?>
 
@@ -73,9 +73,6 @@ if ( have_posts() ) : // если имеются записи в блоге.
       wp_reset_query();
       ?>
     </div>
-
-
-
 
     </div>
   </section>

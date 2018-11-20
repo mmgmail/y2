@@ -287,6 +287,10 @@ b {
   margin-top: 20px;
 }
 
+a {
+  display: inline-block;
+}
+
 @media (min-width: 770px) {
   #menu-menu-1 {
     display: none;

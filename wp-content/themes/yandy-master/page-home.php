@@ -45,26 +45,29 @@
 								<div class="top-text">
 								<h1 class="top-h1"><?php the_title(); ?></h1>
 									<div class="top-p"><?php the_excerpt(); ?></div>
-								<?php
-									if(get_the_ID() == '8') {
-								?>
-									<a href="/events/" class="top-btn"><u>Read More</u></a>
-
-								<?php
-									}	elseif (get_the_ID() == '15') {
-								?>
-									<a href="/canned-cocktails/" class="top-btn"><u>Read More</u></a>
-
-								<?php
-							}	elseif (get_the_ID() == '11') {
-								?>
-									<a href="/spirits/" class="top-btn"><u>Read More</u></a>
-
-								<?php
-									}	else {
-								?>
 									<a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
-								<?php } ?>
+
+										<!-- <?php
+											if(get_the_ID() == '8') {
+										?>
+											<a href="/events/" class="top-btn"><u>Read More</u></a>
+
+										<?php
+											}	elseif (get_the_ID() == '15') {
+										?>
+											<a href="/canned-cocktails/" class="top-btn"><u>Read More</u></a>
+
+										<?php
+									}	elseif (get_the_ID() == '11') {
+										?>
+											<a href="/spirits/" class="top-btn"><u>Read More</u></a>
+
+										<?php
+											}	else {
+										?>
+											<a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
+										<?php } ?> -->
+
 							</div>
 						</div>
 

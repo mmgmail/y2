@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Coctail Recipes
+Template Name: Canned Coctails
 Template Post Type: post, page, product
 */
 
