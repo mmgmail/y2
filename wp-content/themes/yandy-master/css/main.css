@@ -2581,14 +2581,22 @@ b {
   height: 75px;
   border: 4px solid #fff;
   width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 14px;
 }
 
 .events-products-wrap .spirit-product {
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .events-products-wrap .thumb-order img {
@@ -2774,7 +2782,8 @@ b {
   .events-products-wrap .spirit-product__thumb img {
     max-width: 100%;
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .events-room-form .home-form {
@@ -2786,9 +2795,6 @@ b {
     margin-bottom: 30px;
   }
 
-  .blog-header .container {
-    padding: 0;
-  }
 }
 
 .lds-roller
@@ -3453,6 +3459,12 @@ b {
 
 @media (max-width: 770px)
 {
+    .container .snow-box__head, .container  .snow-box__body{
+      padding-left: 0; padding-right: 0;
+    }
+    .spirit-product__content.content-order {
+        padding-right:0px;
+    }
     .fixed-today-bar {
       display: block;
     }

@@ -45,7 +45,26 @@
 								<div class="top-text">
 								<h1 class="top-h1"><?php the_title(); ?></h1>
 									<div class="top-p"><?php the_excerpt(); ?></div>
-								<a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
+								<?php
+									if(get_the_ID() == '8') {
+								?>
+									<a href="/events/" class="top-btn"><u>Read More</u></a>
+
+								<?php
+									}	elseif (get_the_ID() == '15') {
+								?>
+									<a href="/canned-cocktails/" class="top-btn"><u>Read More</u></a>
+
+								<?php
+							}	elseif (get_the_ID() == '11') {
+								?>
+									<a href="/spirits/" class="top-btn"><u>Read More</u></a>
+
+								<?php
+									}	else {
+								?>
+									<a href="<?php the_permalink();?>" class="top-btn"><u>Read More</u></a>
+								<?php } ?>
 							</div>
 						</div>
 
@@ -161,7 +180,7 @@
 				<div class="hand-p-products">
 					<h2 class="top-h1-2">CANNED COCKTAILS<span class="text-center">Ready-To-Drink</span></h2>
 					<div class="top-p">Our canned cocktails are perfect for any occasion. Find out where  you can get them and how they are  made by clicking the link below.</div>
-					<a class="top-btn" href="<?php echo get_permalink(); ?>/coctails/"><u>Learn More</u></a>
+					<a class="top-btn" href="<?php echo get_permalink(); ?>/canned-cocktails/"><u>Learn More</u></a>
 				</div>
 			</div>
 			<img src="<?php echo get_template_directory_uri();?>/img/g-t-jpg.jpg"
