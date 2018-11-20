@@ -189,3 +189,27 @@
 		<div class="fixed-today-bar__title">Directions / Hours Today</div>
 		<div class="fixed-today-bar__hours js-today">1495 G ST, San Diego 92101 / <span></span></div>
 	</div>
+
+	<div class="col-12 col-lg-6 events-room-form mfp-hide" id="modalSubscribe">
+		<form class="home-form" name="mc-embedded-subscribe-form" id="pfb-signup-submission" method="post">
+			<div class="form-style row">
+				<div class="col-md-12">
+					<input type="text" type="text" name="EMAIL" placeholder="Email Address*" required>
+				</div>
+				<div class="col-md-6">
+					<input id="pfb-signup-box-fname" type="text" value="" placeholder="First Name*" name="FNAME">
+				</div>
+				<div class="col-md-6">
+					<input id="pfb-signup-box-lname" type="text" value="" placeholder="Last Name" name="LNAME">
+				</div>
+				<div class="clearfix">
+					<button id="pfb-signup-button" type="submit" class="book-event-submit" id="bookEvent">
+						<span class="book-event-submit__text">Subscribe</span>
+						<span class="lds-rolle-wrap">
+							<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+						</span>
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>

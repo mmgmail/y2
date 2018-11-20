@@ -58,11 +58,12 @@ get_header();
 							<b>-Toni T</b>
 						</div>
 					</div>
+          
           <div class="col-12 col-lg-6 events-room-form">
-            <form action="" method="post" class="home-form" name="contactForm" id="contactForm">
+            <form class="home-form" name="contactForm" id="contactForm" method="post">
   						<div class="form-style row">
   							<div class="col-md-6">
-  								<input type="text" name="name" placeholder="Full Name" required>
+  								<input type="text" type="text" name="name" required placeholder="Full Name" required>
   							</div>
   							<div class="col-md-6">
   								<input type="email" name="email" placeholder="Email" required>

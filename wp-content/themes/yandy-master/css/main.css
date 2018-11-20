@@ -94,7 +94,6 @@
 @font-face
 {
     font-family: 'fontello';
-    font-weight: normal;
     font-style: normal;
 
     src: url('../font/fontello?#iefix') format('embedded-opentype'), url('../font/fontello.woff') format('woff'), url('../font/fontello.ttf') format('truetype'), url('../font/fontello.svg#fontello') format('svg');
@@ -118,7 +117,6 @@
 [class*=' icon-']:before
 {
     font-family: 'fontello';
-    font-weight: normal;
     font-style: normal;
     /* opacity: .8; */
     /* For safety - reset parent styles, that can break glyph codes*/
@@ -219,7 +217,6 @@ p
 
 .p-normal
 {
-    font-weight: normal;
 }
 
 h4
@@ -269,7 +266,6 @@ b {
 .blog-text p
 {
     font-size: 20px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.51;
@@ -1245,7 +1241,6 @@ a {
 {
     font-family: 'Crimson Text', serif;
     font-size: 37px;
-    font-weight: normal;
     font-style: italic;
     font-stretch: normal;
     line-height: normal;
@@ -1354,7 +1349,6 @@ a {
 {
     font-family: 'Crimson Text', serif;
     font-size: 95px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: .88;
@@ -1394,7 +1388,6 @@ a {
 .event-title
 {
     font-size: 20px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.56;
@@ -1811,7 +1804,6 @@ a {
 .footer-p1
 {
     font-size: 21px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.51;
@@ -2433,7 +2425,6 @@ a {
 {
     font-family: Gotham;
     font-size: 14px;
-    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.91;
@@ -2595,6 +2586,10 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 14px;
+}
+
+.mfp-content .events-room-form {
+  margin: auto;
 }
 
 .events-products-wrap .spirit-product {
