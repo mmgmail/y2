@@ -29,7 +29,25 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title><?php bloginfo('name'); ?></title>
+	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- FB -->
+	<meta property="og:image" content="/og-image.jpg">
+	<meta property="og:image:width" content="172">
+	<meta property="og:image:height" content="90">
+	<meta property="og:title" content="<?php bloginfo('name'); ?> <?php wp_title(); ?>">
+	<meta property="og:description" content="<?php bloginfo('description'); ?>">
+	<meta property="og:url" content="http://blog.youandyours.com">
+
 	<!--
 			CSS
 			============================================= -->
